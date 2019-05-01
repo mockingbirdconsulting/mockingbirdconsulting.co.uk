@@ -19,15 +19,15 @@ theme = "infinity-hugo"
         bg          = "images/header-bg.jpg"
         title       = "FROM FIELD TO FARMHOUSE"
         subtitle    = "Live updates on security, livestock movement, soil conditions, and water levels delivered direct to you."
-        btnText     = "Get Started"
+        btnText     = "Learn more"
         countdownYear = "2019"
-        countdownMonth = "12"
-        countdownDay  = "27"
+        countdownMonth = "09"
+        countdownDay  = "01"
 
     # About Section
     [params.about]
         enable      = true
-        heading     = "We focus on the technology, so you can focus on the farming"
+        heading       = "Take control of your farm with a fully managed solution from Mockingbird Consulting."
         description = "Tell us about your farm and we'll provide you with everything you need to understand at a glance what is happening on your estate.<br /><br />Sensors, connectivity, and a management dashboard are all included for one low monthly fee."
 
         [[params.about.sliderItem]]
@@ -41,89 +41,55 @@ theme = "infinity-hugo"
     # Service Section
     [params.service]
         enable      = true
-        title       = "Find Better Solutions Build Better Products"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        title     = "We focus on the technology, so you can focus on the farming"
+        subtitle    = "No one knows the land you work as well as you do.  Our solution helps you to make even better decisions about the way you manage your farm based on what's happening right now."
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-strategy"
-            title   = "Fully Responsive"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            icon    = "tf-lock2"
+            title   = "Secure your premises"
+            description = "Get alerts when gates or barn doors are left open, track the location of valuable assets and find out if they leave the farm unexpectedly"
             delay   = "0s"
 
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-circle-compass"
-            title   = "Speed Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            icon    = "tf-map2"
+            title = "Map your estate"
+            description = "See exactly what is growing and where, with the built-in mapping facilities."
             delay   = "0.2s"
 
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-anchor2"
-            title   = "Tons of Feature"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            icon    = "tf-linegraph"
+            title   = "Monitor your environment"
+            description = "From air temperature and humidity, through livestock and plant tracking, to soil and water quality, we've got a sensor for you."
             delay   = "0.4s"
 
+    
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
-            icon    = "tf-globe"
-            title   = "Fully SEO Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "0.6s"
-        
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-strategy"
-            title   = "Fully Responsive"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "0.8s"
+            icon    = "tf-puzzle"
+            title   = "Start small, grow big"
+            description = "We know not all farms are the same, so our starter packs are designed to grow with you. More sensors or even new types are all compatible with the platform."
+            delay   = "0.4s"
 
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-circle-compass"
-            title   = "Speed Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-anchor2"
-            title   = "Tons of Feature"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1.2s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-globe"
-            title   = "Fully SEO Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1.5s"
     
     
     # Call to Action Section
     [params.cta]
         enable      = true
         bg          = "images/call-to-action.jpg"
-        title       = "Subscribe to our mailing list"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+        title       = "Get early access"
+        subtitle    = "Fill in your details below, and you could get early access to the platform as part of our beta programme."
 
     [params.contact]
         enable      = true
         title       = "Get In Touch"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+        subtitle    = "Do you have a question that isn't answered here? Fill in the form below and we'll find you an answer!"
