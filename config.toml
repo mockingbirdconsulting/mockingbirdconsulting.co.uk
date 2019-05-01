@@ -41,14 +41,14 @@ theme = "infinity-hugo"
     [params.service]
         enable      = true
         title     = "We focus on the technology, so you can focus on the farming"
-        subtitle    = "No one knows the land you work as well as you do.  Our solution helps you to make even better decisions about the way you manage your farm based on what's happening right now."
+        subtitle    = "Even for the smallest farm, new, affordable, technology can help you can make even better decisions about the way you manage your business on a day to day basis, including immediate alerts to critical incidents - all through your mobile phone, tablet or PC no matter whether you are on, or off, your farm."
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
             icon    = "tf-lock2"
             title   = "Secure your premises"
-            description = "Get alerts when gates or barn doors are left open, track the location of valuable assets and find out if they leave the farm unexpectedly"
+            description = "Get alerts when gates or barn doors open unexpectedly or are left open. Track the location of expensive machinery and livestock and find out if they leave your land unexpectedly."
             delay   = "0s"
 
         [[params.service.serviceItem]]
@@ -56,8 +56,8 @@ theme = "infinity-hugo"
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
             icon    = "tf-map2"
-            title = "Map your estate"
-            description = "See exactly what is growing and where, with the built-in mapping facilities."
+            title   = "Monitor your field and crop activity"
+            description = "Virtually \"walk the farm\" by receiving morning updates through your phone on what is happening in the growth cycles of your valuable crops, livestock, woodlands, and fields so you can respond immediately to problems."
             delay   = "0.2s"
 
         [[params.service.serviceItem]]
@@ -66,7 +66,7 @@ theme = "infinity-hugo"
             # use delay for reveal items one by one
             icon    = "tf-linegraph"
             title   = "Monitor your environment"
-            description = "From air temperature and humidity, through livestock and plant tracking, to soil and water quality, we've got a sensor for you."
+            description = "Keep an eye on air temperature and humidity, soil and water quality, to evaluate the environment and microclimates across your land. Even set alarms on your phone to alert you to particular environmental situations that could damage your business."
             delay   = "0.4s"
 
     
@@ -76,7 +76,7 @@ theme = "infinity-hugo"
             # use delay for reveal items one by one
             icon    = "tf-puzzle"
             title   = "Start small, grow big"
-            description = "We know not all farms are the same, so our starter packs are designed to grow with you. More sensors or even new types are all compatible with the platform."
+            description = "We know not all farms are the same, so our starter packs are designed to grow with you. Add new types of sensor or just increase the number of existing ones, it's all compatible with the platform."
             delay   = "0.4s"
 
     
