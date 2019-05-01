@@ -1,10 +1,9 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "Mockingbird Consulting"
+title = "Complete Farm Management from Mockingbird Consulting"
 theme = "infinity-hugo"
 
 [params]
-
     # Navigation
     [params.navigation]
         logo = "images/logo.png"
@@ -17,7 +16,7 @@ theme = "infinity-hugo"
     [params.hero]
         enable      = true
         bg          = "images/header-bg.jpg"
-        title       = "FROM FIELD TO FARMHOUSE"
+        title       = "FROM FIELD TO FARMER"
         subtitle    = "Live updates on security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
         btnText     = "Learn more"
         countdownYear = "2019"
