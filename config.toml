@@ -28,7 +28,7 @@ theme = "infinity-hugo"
     [params.about]
         enable      = true
         heading     = "We focus on the technology, so you can focus on the farming"
-        description = "Take control of your farm with a fully managed solution from Mockingbird Consulting. Tell us what you farm, where you farm, and how big your farm is, and we'll provide you with everything you need to understand at a glance what is happening on your estate.<br /><br />Sensors, connectivity, and a management dashboard are all included for one low monthly fee."
+        description = "Tell us about your farm and we'll provide you with everything you need to understand at a glance what is happening on your estate.<br /><br />Sensors, connectivity, and a management dashboard are all included for one low monthly fee."
 
         [[params.about.sliderItem]]
             image   = "images/about/1.jpg"
@@ -36,8 +36,6 @@ theme = "infinity-hugo"
             image   = "images/about/2.jpg"
         [[params.about.sliderItem]]
             image   = "images/about/3.jpg"
-        [[params.about.sliderItem]]
-            image   = "images/about/2.jpg"
 
     
     # Service Section
