@@ -66,7 +66,7 @@ theme = "infinity-hugo"
             # use delay for reveal items one by one
             icon    = "tf-linegraph"
             title   = "Monitor your environment"
-            description = "Keep an eye on air temperature and humidity, soil and water quality, to evaluate the environment and microclimates across your land. Even set alarms on your phone to alert you to particular environmental situations that could damage your business."
+            description = "Keep an eye on air temperature, humidity, and soil and water quality to evaluate the environment and microclimates across your land. Even set alarms on your phone to alert you to particular environmental situations that could damage your business."
             delay   = "0.4s"
 
     
