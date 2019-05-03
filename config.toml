@@ -47,14 +47,14 @@ relativeurls = true
     [params.service]
         enable      = true
         title     = "We focus on the technology, so you can focus on the farming"
-        subtitle    = "Even for the smallest farm, new, affordable, technology can help you can make even better decisions about the way you manage your business on a day to day basis, including immediate alerts to critical incidents - all through your mobile phone, tablet or PC no matter whether you are on, or off, your farm."
+        subtitle    = "Even for the smallest farm, new, affordable, technology can help you can make even better decisions about the way you manage your business on a day to day basis. Get immediate alerts to critical incidents - all through your mobile phone, tablet or PC no matter whether you are on, or off, your farm."
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
             icon    = "tf-lock2"
             title   = "Secure your premises"
-            description = "Get alerts when gates or barn doors open unexpectedly or are left open. Track the location of expensive machinery and livestock and find out if they leave your land unexpectedly."
+            description = "Get alerts when gates or barn doors open at unusual times or are left open by people passing through your land. Track the location of expensive machinery and livestock and find out if they leave your land unexpectedly."
             delay   = "0s"
 
         [[params.service.serviceItem]]
@@ -63,7 +63,7 @@ relativeurls = true
             # use delay for reveal items one by one
             icon    = "tf-map2"
             title   = "Monitor your field and crop activity"
-            description = "Virtually \"walk the farm\" by receiving morning updates through your phone on what is happening in the growth cycles of your valuable crops, livestock, woodlands, and fields so you can respond immediately to problems."
+            description = "Virtually \"walk the farm\" by receiving updates through your phone on what is happening in the growth cycles of your valuable crops, livestock, woodlands, and fields so you can respond immediately to problems."
             delay   = "0.2s"
 
         [[params.service.serviceItem]]
@@ -72,7 +72,7 @@ relativeurls = true
             # use delay for reveal items one by one
             icon    = "tf-linegraph"
             title   = "Monitor your environment"
-            description = "Keep an eye on air temperature, humidity, and soil and water quality to evaluate the environment and microclimates across your land. Even set alarms on your phone to alert you to particular environmental situations that could damage your business."
+            description = "Keep an eye on air temperature, humidity, and soil & water quality to evaluate the environment and microclimates across your land. Get alerts to your phone for particular environmental situations that could damage your business."
             delay   = "0.4s"
 
     
