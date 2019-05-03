@@ -40,7 +40,7 @@ relativeurls = true
     [params.service]
         enable      = true
         title     = "We focus on the technology, so you can focus on the farming"
-        subtitle    = "Even for the smallest farm, new, affordable, technology can help you can make even better decisions about the way you manage your business on a day to day basis. Get immediate alerts to critical incidents - all through your mobile phone, tablet or PC no matter whether you are on, or off, your farm."
+        subtitle    = "Even for the smallest farm, new & affordable technology can help you can make even better decisions about the way you manage your business on a day to day basis. Get immediate alerts to critical incidents - all through your mobile phone, tablet or PC no matter whether you are on, or off, your farm."
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
