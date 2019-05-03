@@ -34,10 +34,13 @@ relativeurls = true
 
         [[params.about.sliderItem]]
             image   = "images/about/1.jpg"
+            description = "Plant sensors help with irrigation decisions"
         [[params.about.sliderItem]]
             image   = "images/about/2.jpg"
+            description = "Map your farm and associate sensors directly with the fields"
         [[params.about.sliderItem]]
             image   = "images/about/3.jpg"
+            description = "Easily see changes over time as the data flows from your estate to your dashboard"
 
     
     # Service Section
