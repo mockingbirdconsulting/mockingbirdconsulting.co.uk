@@ -25,9 +25,6 @@ relativeurls = true
         title       = "FROM FIELD TO FARMER"
         subtitle    = "Live updates on security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
         btnText     = "Learn more"
-        countdownYear = "2019"
-        countdownMonth = "09"
-        countdownDay  = "01"
 
     # About Section
     [params.about]
