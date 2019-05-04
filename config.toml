@@ -10,6 +10,9 @@ relativeurls = true
 [params]
     description    = "Live updates on security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
     seo_tags = [ "farm management", "digital farm management", "IoT", "Agricultural IoT"]
+    # Matomo Web Stats
+    matomo_rootURL = "//webstats.mockingbirdconsulting.co.uk/"
+    matomo_siteID = 1
     # Navigation
     [params.navigation]
         logo = "images/logo.png"
@@ -91,3 +94,4 @@ relativeurls = true
         enable      = true
         title       = "Get In Touch"
         subtitle    = "Do you have a question that isn't answered here? Fill in the form below and we'll find you an answer!"
+
