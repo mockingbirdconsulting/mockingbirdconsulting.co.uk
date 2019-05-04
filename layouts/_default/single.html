@@ -2,14 +2,29 @@
 <div class="container">
   <div class="content-center">
     <h1 class="title">{{ .Title }}</h1>
-    <div class="text-center">
-      {{with .Params.description }} {{ . | safeHTML }} {{ end }}
-    </div>
   </div>
 </div>
 {{ end }}
 
 {{ define "body" }}
-  {{ .Content }}
-{{ end }}        
- 
+<section id="blogpost" class="section about bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                <div class="content">
+                    <div class="subheading">
+                    {{ with .Params.description }}
+                        <h3>{{ . | markdownify }}</h3>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="content">
+                        {{ .Content | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
