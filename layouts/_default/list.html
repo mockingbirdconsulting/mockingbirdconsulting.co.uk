@@ -1,60 +1,90 @@
-{{ define "body" }}
-<!-- Optional Header Image -->
-{{ if .Params.header.image }}
-<div class="article-header">
-  <img src="{{ .Params.header.image  }}" class="article-banner" itemprop="image">
-  {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+{{ define "title" }}
+<div class="container">
+  <div class="content-center">
+    <h1 class="title">{{ .Title }}</h1>
+  </div>
 </div>
-{{end}}
+{{ end }}
 
-   <!-- List pages can get Content and yaml metadata from an _index.md -->
-  {{ with .Content }}<div class="article-style" itemprop="articleBody">{{ . }}</div>{{ end }}
+{{ define "body" }}
+<section id="blogpost" class="section about bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 wow fadeInLeft">
+                <div class="content">
+                    <div class="subheading">
+                    {{ with .Params.description }}
+                        <h3>{{ . | markdownify }}</h3>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ with .Content }}
+            <div class="col-md-10 col-sm-12">
+                <div class="content">
+                    {{ . | markdownify }}
+                </div>
+            </div>
+            {{ end }}
 
   <div class="container justify-content-center">
     <div class="row">
-    {{ range .Paginator.Pages }}
-                        <div class="col-md-4 col-lg-4 col-xl-4  d-flex">
-                              <div class="card text-center flex-fill">
-                                <a class="" href="{{ .RelPermalink }}" role="tab">
-                                    {{ with .Params.images }}{{ range first 1 .}}<img src="{{ .   }}"  class="card-img-top rounded" height="200px"/>{{ end }}{{ end}}
-                                </a>
-                                <div class="card-body">
-                                     <h4 class="card-title">
-                                        <a class="" href="{{ .RelPermalink }}">
-                                         {{ .Params.title }}
-                                        </a>
-                                     </h4>
-                                <p class="text-muted mb-2">
-<!--                                 {{ if .Params.tags }}
-<i class="now-ui-icons shopping_tag-content"></i> {{ delimit .Params.tags ", " }}
-{{ end }} -->
-                                </p>
-                                     <p class="card-text">
-                                     {{.Params.description}}
-                                     </p>
-                                     {{ if .Truncated }}
-                                      <div>
-                                        <a href="{{ .RelPermalink }}">Read More…</a>
-                                      </div>
-                                     {{ end }}
-
-                                </div>
-                            </div>
-                    </div>
+        <div class="col-md-12 col-lg-12 col-xl-12  d-flex">
+    {{ $.Scratch.Set "colcount" 0 }}
+    <div class="card-deck">
+    {{ range .Pages.ByPublishDate.Reverse }}
+              <div class="card text-center">
+            <a class="" href="{{ .RelPermalink }}" role="tab">
+                {{ with .Resources.GetMatch "header" }}
+              <img
+                class="card-img-top"
+                style="width: 100%; object-fit: cover;"
+                src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+                {{ end }}
+            </a>
+            <div class="card-body">
+                 <h4 class="card-title">
+                    <a class="" href="{{ .RelPermalink }}">
+                     {{ .Params.title }}
+                    </a>
+                 </h4>
+                <p class="text-muted mb-2">
+    <!--                                 {{ if .Params.tags }}
+    <i class="now-ui-icons shopping_tag-content"></i> {{ delimit .Params.tags ", " }}
+    {{ end }} -->
+                </p>
+                 <p class="card-text">
+                 {{.Params.description}}
+                 </p>
+                 {{ if .Truncated }}
+                  <div>
+                    <a href="{{ .RelPermalink }}">Read More…</a>
+                  </div>
+                 {{ end }}
+            </div>
+        </div>
+        {{ if eq ($.Scratch.Get "colcount") 2}}
+    </div>
+    <div class="card-deck">
+        {{ $.Scratch.Set "colcount" 0 }}
+        {{ else }}
+        {{ $.Scratch.Add "colcount" 1 }}
+        {{ end  }}
     {{ end }}
     </div>
   </div>
-
-{{ if (.Paginator.HasPrev) or (.Paginator.HasNext) }}
-<nav>
-    {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL  }}">&laquo; Previous</a>
-    {{ end }}
-    {{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL  }}">Next &raquo;</a>
-    {{ end }}
-</nav>
+  </div>
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+{{ range $paginator.Pages }}
+  &lt;!&dash;&dash; Post content such as title and summary goes here. &dash;&dash;&gt;
 {{ end }}
+<!-- Hugo's default pagination template. -->
+{{ template "_internal/pagination.html" . }}
 
   <br />  
-{{end}}
+        </div>
+    </div>
+</section>
+{{ end }}
