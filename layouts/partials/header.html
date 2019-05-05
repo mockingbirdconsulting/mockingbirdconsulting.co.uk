@@ -9,6 +9,12 @@
     <meta name="msvalidate.01" content="F3A8BBB4E2D222E3161301F6D0070FFD" />
     <meta name="yandex-verification" content="3374a3a9361f37be" />
     <!-- SEO Schema -->
+    {{- if isset .Params "tags" }}
+      {{- .Scratch.Set "seo_tags" (apply .Params.tags "urlize" "." ) }}
+      {{- .Scratch.Add "seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
+    {{- else }}
+      {{- .Scratch.Set "seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
+    {{- end }}
     <script type="application/ld+json">
     {
         "@context" : "http://schema.org",
@@ -24,7 +30,7 @@
         "copyrightHolder" : "Mockingbird Consulting Ltd",
         "copyrightYear" : "2019",
         "url" : "{{ .Permalink }}",
-        "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}{{ range .Site.Params.seo_tags }}"{{ . }}",{{end}} ]
+        "keywords" : {{ .Scratch.Get "seo_tags" }}
     }
     </script>
     <!-- Open Graph Data -->
