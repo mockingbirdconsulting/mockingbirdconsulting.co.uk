@@ -1,4 +1,4 @@
-baseURL = "//www.mockingbirdconsulting.co.uk"
+baseURL = "https://www.mockingbirdconsulting.co.uk"
 languageCode = "en-gb"
 title = "Complete Farm Management from Mockingbird Consulting"
 theme = "infinity-hugo"
