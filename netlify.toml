@@ -1,0 +1,4 @@
+# A basic redirect rule
+[[redirects]]
+  from = "/case_studies/*"
+  to = "/case-studies/:splat"
