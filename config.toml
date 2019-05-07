@@ -8,7 +8,7 @@ relativeurls = true
     post = "/blog/:year/:month/:day/:slug/"
 
 [params]
-    description    = "Live updates on security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
+    description    = "Live updates from your farm for security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
     seo_tags = [ "farm management", "digital farm management", "IoT", "Agricultural IoT"]
     # Matomo Web Stats
     matomo_rootURL = "//webstats.mockingbirdconsulting.co.uk/"
