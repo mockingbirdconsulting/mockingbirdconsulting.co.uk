@@ -1,0 +1,7 @@
+{{ $quotation := .Get "text"}}
+{{ $person := .Get "person"}}
+{{ $secondary := .Get "secondary"}}
+<blockquote class="blockquote">
+<p>{{ $quotation }}</p>
+<p class="blockquote-footer">{{ $person }}, <cite>{{ $secondary }}</cite></footer>
+</blockquote>
