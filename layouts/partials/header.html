@@ -34,10 +34,10 @@
     }
     </script>
     <!-- Open Graph Data -->
-        <meta property="og:title" content="Complete Farm Management from Mockingbird Consulting" />
-<meta property="og:description" content="Live updates from your farm for security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are." />
+    <meta property="og:title" content="{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}{{ .Site.Title }}" />
+<meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.mockingbirdconsulting.co.uk/" />
+<meta property="og:url" content="{{ .Permalink }}" />
 
 <meta property="og:image" content="https://www.mockingbirdconsulting.co.uk/images/header-bg.jpg" />
 
