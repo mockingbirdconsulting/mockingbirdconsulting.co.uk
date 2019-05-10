@@ -34,7 +34,14 @@
     }
     </script>
     <!-- Open Graph Data -->
-    {{ template "_internal/opengraph.html" . }}
+        <meta property="og:title" content="Complete Farm Management from Mockingbird Consulting" />
+<meta property="og:description" content="Live updates from your farm for security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.mockingbirdconsulting.co.uk/" />
+
+<meta property="og:image" content="https://www.mockingbirdconsulting.co.uk/images/header-bg.jpg" />
+
+<meta property="og:updated_time" content="{{ .Date }}"/>
     <!-- twitter cards -->
     {{ template "_internal/twitter_cards.html" . }}
     <!--     Fonts and icons     -->
