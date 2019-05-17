@@ -95,3 +95,6 @@ relativeurls = true
         title       = "Get In Touch"
         subtitle    = "Do you have a question that isn't answered here? Fill in the form below and we'll find you an answer!"
 
+
+[blackfriday]
+  hrefTargetBlank = true
