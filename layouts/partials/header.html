@@ -10,10 +10,10 @@
     <meta name="yandex-verification" content="3374a3a9361f37be" />
     <!-- SEO Schema -->
     {{- if isset .Params "tags" }}
-      {{- .Scratch.Set "seo_tags" (apply .Params.tags "urlize" "." ) }}
-      {{- .Scratch.Add "seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
+      {{- .Scratch.Set "page_seo_tags" (apply .Params.tags "urlize" "." ) }}
+      {{- .Scratch.Add "page_seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
     {{- else }}
-      {{- .Scratch.Set "seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
+      {{- .Scratch.Set "page_seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
     {{- end }}
     <script type="application/ld+json">
     {
@@ -30,7 +30,7 @@
         "copyrightHolder" : "Mockingbird Consulting Ltd",
         "copyrightYear" : "2019",
         "url" : "{{ .Permalink }}",
-        "keywords" : {{ .Scratch.Get "seo_tags" }},
+        "keywords" : {{ .Scratch.Get "page_seo_tags" }},
     }
     </script>
     <!-- Open Graph Data -->
