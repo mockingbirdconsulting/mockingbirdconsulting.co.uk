@@ -3,5 +3,9 @@
 {{ $secondary := .Get "secondary"}}
 <blockquote class="blockquote">
 <p>{{ $quotation }}</p>
-<p class="blockquote-footer">{{ $person }}, <cite>{{ $secondary }}</cite></footer>
+{{- if $person }}
+  <p class="blockquote-footer">{{ $person }} 
+  {{- if $secondary }}<br /><cite>{{ $secondary }}</cite>{{- end }}
+      </p>
+{{- end }}
 </blockquote>
