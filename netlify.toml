@@ -2,3 +2,12 @@
 [[redirects]]
   from = "/case_studies/*"
   to = "/case-studies/:splat"
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+  Strict-Transport-Security = '''
+    includeSubDomains,
+    preload,
+    max-age=300
+  '''
