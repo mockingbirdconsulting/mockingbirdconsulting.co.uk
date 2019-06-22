@@ -12,14 +12,31 @@
                             <p>{{ . }}</p>
                         {{ end }}
                         <div class="col-lg-6 offset-lg-3">
+                            <div class="form-group">
                             <form name="farming-beta-signup" data-netlify="true" action="/thanks">
+                            <div class="input-field">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Please type your name">
+                            </div>
+                            <div class="input-field">
+                                    <input type="text" name="email-address" id="email-address" class="form-control" placeholder="Please type your email address">
+                            </div>
+                            <div class="input-field">
+                                    <select name="type-of-farm" id="type-of-farm" class="form-control" placeholder="Please select the type of farm you manage">
+                                         <option value="" disabled selected hidden>Please select the type of farm you manage</option>
+                                         <option value="arable">Arable</option>
+                                         <option value="pastoral">Pastoral</option>
+                                         <option value="mixed">Mixed</option>
+                                         <option value="other">Other farming</option>
+                                         <option value="no-farm">I don't manage a farm, but I still have a need for this solution.</option>
+                                    </select>
+                            </div>
                             <div class="input-group">
-                                    <input type="text" name="email-address" id="email-address" class="form-control" placeholder="Your Email Address Here">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-default btn-subscription" type="submit">Subscribe</button>
+                                        <button class="btn btn-default btn-subscription" type="submit">Apply now!</button>
                                     </span>
                             </div>
                             </form>
+                            </div>
                         </div>
                     </div>
                 </div>

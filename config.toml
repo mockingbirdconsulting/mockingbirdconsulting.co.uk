@@ -87,7 +87,7 @@ relativeurls = true
     [params.cta]
         enable      = true
         bg          = "images/call-to-action.jpg"
-        title       = "Get early access"
+        title       = "Join our Beta Programme"
         subtitle    = "Fill in your details below, and you could get early access to the platform as part of our beta programme."
 
     [params.contact]
