@@ -8,6 +8,9 @@ tags:
   - LoRaWAN
   - Managed LoRaWAN
 description: "Fully managed IoT Infrastructure that can grow with your organisation"
+resources:
+  - name: header
+    src:  bridge.jpg
 params:
   navigation:
     logo: "/images/logo.png"
