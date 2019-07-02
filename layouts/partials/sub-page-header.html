@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}{{ .Site.Title }}</title>
-    <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+    <meta name="description" content="{{ .Params.description | default .Params.params.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msvalidate.01" content="F3A8BBB4E2D222E3161301F6D0070FFD" />
     <meta name="yandex-verification" content="3374a3a9361f37be" />
     <!-- SEO Schema -->
     {{- if isset .Params "tags" }}
       {{- .Scratch.Set "seo_tags" (apply .Params.tags "urlize" "." ) }}
-      {{- .Scratch.Add "seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
+      {{- .Scratch.Add "seo_tags" (apply .Params.params.seo_tags "urlize" ".") }}
     {{- else }}
-      {{- .Scratch.Set "seo_tags" (apply .Site.Params.seo_tags "urlize" ".") }}
+      {{- .Scratch.Set "seo_tags" (apply .Params.params.seo_tags "urlize" ".") }}
     {{- end }}
     <script type="application/ld+json">
     {
@@ -24,7 +24,7 @@
              "@id": "{{ .Site.BaseURL }}"
         },
         "name" : "{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}",
-        "description" : "{{ .Params.description | default .Site.Params.description }}",
+        "description" : "{{ .Params.description | default .Params.params.description }}",
         "inLanguage" : "en-GB",
         "author" : "Mockingbird Consulting Ltd",
         "copyrightHolder" : "Mockingbird Consulting Ltd",
@@ -35,7 +35,7 @@
     </script>
     <!-- Open Graph Data -->
     <meta property="og:title" content="{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}" />
-<meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}" />
+<meta property="og:description" content="{{ .Params.description | default .Params.params.description }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ with .Resources.GetMatch "header" }}
