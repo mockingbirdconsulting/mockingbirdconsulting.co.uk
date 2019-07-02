@@ -20,6 +20,7 @@ relativeurls = true
         about = "About"
         service = "Services"
         contact = "Contact"
+        managed-iot = "Managed IoT"
 
     # Hero Area
     [params.hero]
