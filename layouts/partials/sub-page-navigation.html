@@ -1,0 +1,54 @@
+<div class="container">
+    <nav class="navbar navbar-fixed-top  navigation " id="top-nav">
+        <a class="navbar-brand float-none float-lg-left" href="{{ .Site.BaseURL }}">
+            {{ with .Params.params.navigation.logo }}
+            <img src="{{ . }}" alt="logo">
+            {{ end }}
+        </a>
+        <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <i class="tf-ion-android-menu"></i>
+        </button>
+        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+            <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ .Site.BaseURL }}/managed-iot">
+                        {{ with .Params.params.navigation.home }} {{ . }} {{ end }}
+                    </a>
+                </li>
+                {{ if .Params.params.about.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}/managed-iot/#about">
+                            {{ with .Params.params.navigation.about }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Params.params.service.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}/managed-iot/#service">
+                            {{ with .Params.params.navigation.service }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Params.params.contact.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#contact">
+                            {{ with .Params.params.navigation.contact }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Params.params.casestudies.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}/managed-iot/case-studies">
+                            Case Studies
+                        </a>
+                    </li>
+                {{ end }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}/blog">
+                            Blog
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+</div>

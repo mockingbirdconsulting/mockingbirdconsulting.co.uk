@@ -1,0 +1,51 @@
+{{ if .Params.params.cta.enable }}
+    {{"<!-- Call To Action Section -->" | safeHTML}}
+    <section class="call-to-action" style='background-image: url("{{ with .Params.params.cta.bg }}{{.}}{{ end }}")' >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow text-center">
+                    <div class="block">
+                        {{ with .Params.params.cta.title }}
+                            <h2>{{ . }}</h2>
+                        {{ end }}
+                        {{ with .Params.params.cta.subtitle }}
+                            <p>{{ . }}</p>
+                        {{ end }}
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="form-group">
+                            <form name="arrange-a-call-manage-iot" data-netlify="true" action="/thanks">
+                            <div class="input-field">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Please type your name">
+                            </div>
+                            <div class="input-field">
+                                    <input type="text" name="phone-number" id="phone-number" class="form-control" placeholder="Please provide a phone number">
+                            </div>
+                            <div class="input-field">
+                                    <input type="text" name="email-address" id="email-address" class="form-control" placeholder="Please type your email address">
+                            </div>
+                            <div class="input-field">
+                                <textarea name="about-the-organisation" id="about-the-organisation" class="form-control" placeholder="Please tell us a bit about your organisation and some of the things your might want to monitor/measure"></textarea>
+                            </div>
+                            <div class="input-field">
+                                <select name="when-to-call" if="when-to-call" class="form-control">
+                                    <option value="" disabled selected hidden>When would be the best time during the working day to call you?</option>
+                                    <option value="9-5">Any time between 0900hrs and 1730hrs</option>
+                                    <option value="AM">Mornings are better (0900hrs - 1200hrs)</option>
+                                    <option value="PM">I'd prefer afternoons (1400hrs - 1730hrs)</option>
+                                    <option value="Lunch">Lunchtime works best for me (1200hrs - 1400hrs)</option>
+                                </select>
+                            <div>
+                            <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default btn-subscription" type="submit">Get started!</button>
+                                    </span>
+                            </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
