@@ -10,7 +10,7 @@ tags:
 description: "Fully managed IoT Infrastructure that can grow with your organisation"
 resources:
   - name: header
-    src:  bridge.jpg
+    src:  header.jpg
 params:
   navigation:
     logo: "/images/logo.png"
@@ -20,8 +20,8 @@ params:
     contact: "Contact"
   hero:
     enable: true
-    bg: bridge.jpg
-    title: Managed IoT Solutions
+    bg: header.jpg
+    title: Rural Management Solutions
     btnText: >-
         Click here to learn more
     subtitle: >-
