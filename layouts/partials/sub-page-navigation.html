@@ -11,7 +11,7 @@
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
             <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{ .Site.BaseURL }}/managed-iot">
+                    <a class="nav-link" href="{{ .Site.BaseURL }}">
                         {{ with .Params.params.navigation.home }} {{ . }} {{ end }}
                     </a>
                 </li>
@@ -36,13 +36,11 @@
                         </a>
                     </li>
                 {{ end }}
-                {{ if .Params.params.casestudies.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}/managed-iot/case-studies">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}/case-studies">
                             Case Studies
                         </a>
                     </li>
-                {{ end }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}/blog">
                             Blog

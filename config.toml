@@ -8,7 +8,7 @@ relativeurls = true
     post = "/blog/:year/:month/:day/:slug/"
 
 [params]
-    description    = "Live updates from your farm for security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
+    description    = "Your partner for agricultural and rural management"
     seo_tags = [ "farm management", "digital farm management", "IoT", "Agricultural IoT"]
     # Matomo Web Stats
     matomo_rootURL = "//webstats.mockingbirdconsulting.co.uk/"
@@ -26,13 +26,16 @@ relativeurls = true
     [params.hero]
         enable      = true
         bg          = "images/header-bg.jpg"
-        title       = "FROM FIELD TO FARMER"
-        subtitle    = "Live updates on security, livestock movement, soil conditions, water levels, and much more delivered direct to you wherever you are."
-        btnText     = "Learn more"
+        title       = "Mockingbird Consulting"
+        subtitle    = "Your partner for agricultural and rural management"
+        agriBtnText = "Agriculture and Farming"
+        agriBtnImg  = "agriBtn.jpg"
+        MIoTBtnText = "Towns, Villages, and Estates"
+        MIoTBtnImg  = "MIoTBtn.jpg"
 
     # About Section
     [params.about]
-        enable      = true
+        enable      = false
         heading       = "Take control of your farm with a fully managed solution from Mockingbird Consulting."
         description = "Tell us about your farm and we'll provide you with everything you need to understand at a glance what is happening on your estate.<br /><br />Sensors, connectivity, and a management dashboard are all included for one low monthly fee."
 
@@ -42,7 +45,7 @@ relativeurls = true
     
     # Service Section
     [params.service]
-        enable      = true
+        enable      = false
         title     = "We focus on the technology, so you can focus on the farming"
         subtitle    = "Even for the smallest farm, new & affordable technology can help you can make even better decisions about the way you manage your business on a day to day basis. Get immediate alerts to critical incidents - all through your mobile phone, tablet or PC no matter whether you are on, or off, your farm."
         [[params.service.serviceItem]]
