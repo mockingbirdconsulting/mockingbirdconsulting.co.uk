@@ -1,6 +1,6 @@
 {{ if .Params.params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
-    <section class="hero-area" style='background-image: url("{{ .Permalink }}/{{ with .Params.params.hero.bg }}{{ . }}{{ end }}");'>
+    <section class="hero-area" style='background-image: url("{{ .Permalink }}{{ with .Params.params.hero.bg }}{{ . }}{{ end }}");'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6">
