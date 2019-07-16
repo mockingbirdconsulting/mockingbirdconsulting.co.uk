@@ -20,7 +20,7 @@ params:
     contact: "Contact"
   hero:
     enable: true
-    bg: ./header.jpg
+    bg: header.jpg
     title: Rural Management Solutions
     btnText: >-
         Click here to learn more
