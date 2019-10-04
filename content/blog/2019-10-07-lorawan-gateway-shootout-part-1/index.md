@@ -1,6 +1,6 @@
 --- 
 title: "The LoRaWAN Gateway Shoot-out!"
-date: 2019-10-07T00:00:00+01:00 
+date: 2019-10-04T00:00:00+01:00 
 description: "We're taking four of the most popular gateways and comparing them side by side"
 tags:
   - LoRaWAN 
