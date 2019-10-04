@@ -47,11 +47,11 @@ p {
   line-height: 25px;
 }
 
-ul {
+/*ul {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
 a {
   -webkit-transition: all 0.2s ease-in-out 0s;
