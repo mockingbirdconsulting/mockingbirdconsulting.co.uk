@@ -34,6 +34,8 @@ There is also now the IP67-rated IP67-RG1xx line of gateways which contain the s
 
 The lack of an IP-rated case for our model means that it's not suitable for outdoor use, however we've had successful data transmissions of over 5 miles across a mixed urban/rural environment to the Laird RG186 in the roof-space of a building so we're confident that if you're equipping an office building or buildings on a country estate to monitor the interior and close surrounding areas, this is a good option.
 
+You *could* add an external antenna of some kind for the LoRaWAN connection and run a cable through a wall/roof to provide a better signal, but this is untested by us and we therefore can't recommend it.
+
 ### The different types of connectivity available
 
 The RG1xx series has three methods to connect to it - ethernet, WiFi, or Bluetooth.  Bluetooth is only really suitable for connecting to configure the device, so we'll focus on the other two options.
