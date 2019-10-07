@@ -1,6 +1,6 @@
 --- 
 title: "The LoRaWAN Gateway Shoot-out - the Laird RG186"
-date: 2019-10-04T00:00:00+01:00 
+date: 2019-10-07T00:00:00+01:00 
 description: "How does the Laird RG186 LoRaWAN Gateway stack up against our criteria?"
 tags:
   - LoRaWAN 
