@@ -27,6 +27,8 @@ The best way to think about the Gateway is like the WiFi Router you have in your
 
 Just like the WiFi Router market, the LoRaWAN Gateway market is full of promise and wonder, so in this series we're taking four of the most popular LoRaWAN Gateways and putting them to the test.
 
+*Want to skip the criteria and jump straight to the reviews? The [Laird Sentrius RG1xx review is right here](/blog/2019-10-07-lorawan-gateway-shootout-laird-rg186/)*
+
 ## What will we cover?
 
 The key things to consider when choosing a new LoRaWAN Gateway are:
