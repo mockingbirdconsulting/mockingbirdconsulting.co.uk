@@ -60,7 +60,7 @@ The options to either hard-wire or connect via WiFi make this unit reasonably fl
 
 The RG1xx range of gateways are only configurable via their web interface.  This is fine when you're installing/configuring one or two, however (as we'll see in future posts) it rapidly becomes problematic once you get about 5 or so gateways.
 
-Having said that, the User Interface is relatively intuitive and has a limited set of options, so it's quite quick to get the device connected to WiFi and your preferred LoRaWAN supplier either via one of the presets or using an intermediary device to forward the data on (see the section on connecting to [The Things Network](https://www.thethingsnetwork.org/) and [LoRaServer](https://loraserver.io) below for more details on this).
+Having said that, the User Interface is relatively intuitive and has a limited set of options, so it's quite quick to get the device connected to WiFi and your preferred LoRaWAN supplier either via one of the presets or using an intermediary device to forward the data on (see the section on connecting to [The Things Network](https://www.thethingsnetwork.org/) and [ChirpStack](https://chirpstack.io) below for more details on this).
 
 ### How easy is it to manage once deployed?
 
@@ -72,7 +72,7 @@ All in all, although this is one of the easiest gateways to configure, it's also
 
 ### How easy is it to connect to two popular LoRaWAN services?
 
-As detailed in our [original criteria](/blog/2019-10-07-lorawan-gateway-shootout-the-criteria/), we're going to test all our gateways based on how well they connect to [The Things Network](https://www.thethingsnetwork.org/) and [LoRaServer](https://loraserver.io) (upon which our own platform is based).
+As detailed in our [original criteria](/blog/2019-10-07-lorawan-gateway-shootout-the-criteria/), we're going to test all our gateways based on how well they connect to [The Things Network](https://www.thethingsnetwork.org/) and [ChirpStack](https://chirpstack.io) (upon which our own platform is based).
 
 We'll start with The Things Network, as it's the more popular of the two amongst community networks and the RG1xx definitely falls within the budget of most community groups.
 
@@ -88,19 +88,19 @@ You'll want to select "The Things Network - EU" unless you either have a compreh
 
 Once the connection has been made, the Dashboard will show that the gateway is connected to The Things Network, and the status indicator will go green.
 
-#### Connecting to LoRaServer
+#### Connecting to ChirpStack
 
-Connecting to LoRaServer is a little bit more involved if you are running an up-to-date installation (i.e. v3 or above), as the firmware on the RG1xx only supports version 2.x of LoRaServer.
+Connecting to ChirpStack is a little bit more involved if you are running an up-to-date installation (i.e. v3 or above), as the firmware on the RG1xx only supports version 2.x of ChirpStack.
 
-Full instructions on how to configure the Laird RG1xx to talk to v2 of the LoRaServer are [available on the website](https://www.loraserver.io/lora-gateway-bridge/gateway/laird/) and will take a similar amount of time as connecting to The Things Network, however for version 3 of LoRaServer you'll need to do the following:
+Full instructions on how to configure the Laird RG1xx to talk to v2 of the ChirpStack are [available on the website](https://www.chirpstack.io/lora-gateway-bridge/gateway/laird/) and will take a similar amount of time as connecting to The Things Network, however for version 3 of ChirpStack you'll need to do the following:
 
-   1. [Follow the instructions](https://www.loraserver.io/lora-gateway-bridge/gateway/laird/#semtech-forwarder) on the LoRaServer website to configure the Semtech Forwarder
-   2. Install [LoRa Gateway Bridge](https://www.loraserver.io/lora-gateway-bridge/install/) onto either a server or another device on the same network as the gateway
-   3. Configure the Semtech Forwarder to point to the LoRa Gateway Bridge that you've just setup, and then configure the LoRa Gateway Bridge to connect to your LoRaServer
+   1. [Follow the instructions](https://www.chirpstack.io/lora-gateway-bridge/gateway/laird/#semtech-forwarder) on the ChirpStack website to configure the Semtech Forwarder
+   2. Install [LoRa Gateway Bridge](https://www.chirpstack.io/lora-gateway-bridge/install/) onto either a server or another device on the same network as the gateway
+   3. Configure the Semtech Forwarder to point to the LoRa Gateway Bridge that you've just setup, and then configure the LoRa Gateway Bridge to connect to your ChirpStack
 
 In the case of v3, you won't see the status indicator on the dashboard change colour, so the only way to confirm that the gateway is connected is to log into the console and check the last time it reported in.
 
-{{< bundle-image alt="A working gateway in the LoRaServer Dashboard" name="status" >}}
+{{< bundle-image alt="A working gateway in the ChirpStack Dashboard" name="status" >}}
 
 
 ### RG186 Summary

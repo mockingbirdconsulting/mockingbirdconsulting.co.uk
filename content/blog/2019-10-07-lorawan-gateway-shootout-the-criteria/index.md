@@ -81,7 +81,7 @@ With each of the gateways, we'll take a look at how easy it is to establish a su
 
 ### How easy is it to connect to two popular LoRaWAN services?
 
-We've looked at most of the commercial offerings out there, and these days unless a customer explicitly requests an alternative then we'll connect them to our own LoRaWAN platform based on [Orne Brocaar's LoRaServer Project](https://www.loraserver.io/), however we still have a number of customers who are connected to [The Things Network](https://www.thethingsnetwork.org/).
+We've looked at most of the commercial offerings out there, and these days unless a customer explicitly requests an alternative then we'll connect them to our own LoRaWAN platform based on [Orne Brocaar's ChirpStack Project](https://www.chirpstack.io/), however we still have a number of customers who are connected to [The Things Network](https://www.thethingsnetwork.org/).
 
 As a result we'll be configuring all of the gateways to talk to each network in turn, and reporting back on how straight-forward the setup was, and whether there were any "glitches" or "gotcha's" along the way.
 
