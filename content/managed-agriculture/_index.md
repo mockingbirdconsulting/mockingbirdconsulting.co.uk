@@ -1,5 +1,5 @@
 ---
-title: "Managed IoT Solutions from Mockingbird Consulting"
+title: "Farm Management Solutions from Mockingbird Consulting"
 tags:
   - farm management
   - digital farm management
