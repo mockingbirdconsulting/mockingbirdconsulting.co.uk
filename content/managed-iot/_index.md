@@ -1,5 +1,5 @@
 ---
-title: "Managed IoT Solutions from Mockingbird Consulting"
+title: "Rural Estate, Village, and Town Management Solutions from Mockingbird Consulting"
 tags:
   - environmental management
   - infrastructure management
