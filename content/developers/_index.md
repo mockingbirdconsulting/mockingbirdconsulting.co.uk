@@ -29,6 +29,7 @@ params:
     sliderItem: 
       - image: gate.jpg
       - image: hills.jpg
+      - image: farmdashboard.png
     enable: true
     heading: >-
       Test your devices in a controlled environment, with the added benefit of feedback from the team behind a
@@ -66,9 +67,9 @@ params:
   cta:
     enable: true
     bg: cta.jpg
-    title: Get started on your journey
+    title: Sign up!
     subtitle: >-
-      Fill in your details below and we'll arrange a call at your convenience to get you started.
+      Fill in your details below and we'll be in touch as soon as the developer programme goes live
   contact:
     enable: false
     title: Get In Touch
