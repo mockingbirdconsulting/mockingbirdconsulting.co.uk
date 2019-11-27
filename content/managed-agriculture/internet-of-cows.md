@@ -6,7 +6,7 @@ date: 2019-11-26:00:00+00:00
 description: "Attended one of our sessions on The Internet of Cows? Download the slides here."
 resources:
   - name: header
-    src: greengrowthpledgeenglish.png
+    src: InternetOfCows.png
 tags:
   - Internet of Things
   - Internet of Cows
