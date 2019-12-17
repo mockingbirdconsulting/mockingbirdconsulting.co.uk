@@ -1,21 +1,19 @@
 --- 
-title: "The LoRaWAN Gateway Shoot-out - the Multitech Conduit"
-date: 2019-11-06T00:00:00+00:00 
-description: "How does the Multitech Conduit LoRaWAN Gateway stack up against our criteria?"
+title: "The LoRaWAN Gateway Shoot-out - the RAK 7240"
+date: 2019-12-17T00:00:00+00:00 
+description: "How does the RAK 7240 LoRaWAN Gateway stack up against our criteria?"
 tags:
   - LoRaWAN 
   - IoT
   - Gateways
-  - Multitech
+  - RAK
 resources:
   - name: header
-    src: multitech.jpg
+    src: rak.jpg
   - name: presets
     src: presets.png
   - name: status
     src: gatewaystatus.png
-  - name: alerting
-    src: DeviceHQAlerts.png
 
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
@@ -36,14 +34,13 @@ We'll be judging it against [this set of criteria](/blog/2019-10-07-lorawan-gate
 
 ### The environment in which it will live
 
-The Conduit is designed to be an out gateway, and comes in a metal housing with an official rating of IP-67.
+The RAK 7240 is designed to be an outdoor gateway, and comes in a metal housing with an official rating of IP-67.
 
 This casing makes it perfect for outdoor or other challenging environments such as dusty factory floors and rooms that are subject to high humidity.
 
 ### The different types of connectivity available
 
 The unlike the [Multitech Conduit](/blog/2019-11-06-lorawan-gateway-shootout-multitech-conduit/), the RAK7240 comes with WiFi, LTE, and Ethernet (over the previously mentioned PoE port) by default, making it a great choice when you're not quite sure what the connectivity looks like at the remote site.
-
 
 #### Ethernet (standard networking)
 
@@ -57,7 +54,9 @@ Check your router for the IP Address that has been assigned, visit it in your br
 
 #### LTE (4G Cellular)
 
-As the model we are using will end up on our demo farm, we're checking that relying on LTE for our alternative connectivity back to the LoRaWAN servers will work for all our other customers.  This requires a SIM card from a mobile provider (not supplied), and therefore an additional monthly cost.  The gateway is also not configured to connect to any particular network as standard, so you'll need to find the APN and other data settings for your mobile provider in order to connect via LTE.
+As the model we are using will end up on our demo farm, we're checking that relying on LTE for our alternative connectivity back to the LoRaWAN servers will work for all our other customers.  This requires a SIM card from a mobile provider (not supplied), and therefore an additional monthly cost.  We're using [1p mobile](https://www.1pmobile.com/) and with the 10 or so sensors that are constantly sending back data in our lab environment we're seeing about 16Mb/day in data transfer.  With this particular provider, that means and additional cost of less than £6.00 GBP each month!  As the amount of data that we send over LTE increases, we'll probably need to look to a monthly "all you can eat" contract, but for the time being (and for smaller farms/estates) this will suffice.
+
+The gateway is also not configured to connect to any particular network as standard, so you'll need to find the APN and other data settings for your mobile provider in order to connect via LTE.
 
 So far, we've found the LTE to be just as reliable as the ethernet, and the failover between the two connections when we disconnect the network supply from the PoE injector is flawless including the re-establishing of the VPN connection.
 
@@ -81,50 +80,46 @@ We then went on to configure the LTE and WiFi interfaces just as fast, with just
 
 ### How easy is it to manage once deployed?
 
+
 Just like The Multitech Conduit, the RAK 7240 runs linux and comes with support for OpenVPN built in, however as we use both certificate and username/password authentication for our support VPN configuring the connection required the extra step of adding a file with the credentials to the device.  Unlike the Multitech, saving these details simply restarted the service instead of the entire device, ensuring that the data continued to flow whilst the changes were being made.
 
 Once the VPN is configured, a test of failover between the LTE and Ethernet connections revealed a very quick switchover and reconnect, providing significant reassurance that once installed these devices will continue to "phone home" to our support server and seamlessly switch between the primary and backup connectivity options.
 
-============================================= PICK UP FROM HERE =========================================
+Monitoring of the RAK 7240 is relatively straight forward, and it has an excellent status page that gives an overview of all the connectivity types, the number of devices attached, LoRaWAN packets sent. 
 
-Monitoring of the RAK 7240 is relatively straight forward - we already have an MQTT connection from the gateway for our LoRaWAN traffic, 
+{{< bundle-image alt="The RAK7240 Gateway Status Page" name="status" caption="The RAK 7240 Gateway Status Page" >}}
+
+We already have an MQTT connection from the gateway for our LoRaWAN traffic and our aim in future is to utilise this to send more advanced metrics back to our monitoring platform, however for now we can use both the TTN NOC API (be careful, this is not stable as using it for monitoring is not really its intended purpose!), or the Chipstack API to see when the gateway last reported in to the appropriate platform.
 
 {{< bundle-image alt="The alerting and notification screen on the Multitech Conduit" name="alerting" >}}
 
-Notifications from DeviceHQ are available, however there is no option to customise the alerts you might want to receive, and the only methods of notification are SMS or email.  We'd far prefer to see a set of "standard" alerts that can then be added to, and these days an alerting solution without webhooks makes it very difficult to integrate with "ChatOps" solutions based on slack or even third-party alert providers such as PagerDuty or VictorOps.
+Pulling this data into Grafana means that we can easily integrate with "ChatOps" solutions based on slack and third-party alert providers such as PagerDuty or VictorOps, allowing us to alert when a gateway has been offline or hasn't seen any data for a given amount of time.
 
-The Conduit is a massive step up from the Laird RG1xx, but there are still a significant number of concerns when it comes to monitoring and supporting the device that we'd expect to have been solved given the price tag.
-
+All in all, the ease of configuration, options for future monitoring tooling, and stability of connectivity failover make this the best gateway we've used so far when it comes to supporting and deploying the device.
 
 ### How easy is it to connect to two popular LoRaWAN services?
 
 As detailed in our [original criteria](/blog/2019-10-07-lorawan-gateway-shootout-the-criteria/), we're going to test all our gateways based on how well they connect to [The Things Network](https://www.thethingsnetwork.org/) and [ChirpStack](https://chirpstack.io) (upon which our own platform is based).
 
-We'll start with The Things Network, as it's the more popular of the two amongst community networks and the RG1xx definitely falls within the budget of most community groups.
+We'll start with The Things Network, as it's the more popular of the two amongst community networks and the RAK 7240 is at the price point where it's just cheap enough to justify for self-funded village or town deployments.
 
 #### Connecting to The Things Network
 
-Like the Laird, the Multitech Conduit comes with presets for The Things Network.
+Unlike the Laird or the Multitech, the RAK comes with The Things Network configured by default - you just need to set your Gateway EUI, update the Server URL to point at your local router, and you should see data start to appear.
 
-Unlike the Laird, we weren't able to get them working via the web ui, so after more reboots whilst trying those settings out, we reverted to the ["official instructions"](https://www.thethingsnetwork.org/docs/gateways/multitech/).
-
-This involves downloading a script to the device, executing the script, and providing some settings from the console of The Things Network.  
-
-Once we'd done this, the gateway came online and registered correctly, however it does not appear to provide GPS co-ordinates correctly when configured using the script, therefore [TDoA-based location](https://lora-alliance.org/sites/default/files/2018-04/geolocation_whitepaper.pdf) isn't an option as yet.
-
-We're working on getting GPS up and running, and once we do we'll update this post.
+GPS appears to work well without any additional effort required, and there's not much more we can say.  Once again, RAK have provided the most user-friendly and efficient setup so far!
 
 
 #### Connecting to ChirpStack
 
-Connecting to [ChirpStack](https://chirpstack.io) is even more of a challenge, as it requires flashing the firmware from AEP to mLinux in order to install the required software.
+Connecting to [ChirpStack](https://chirpstack.io) is also trivial.  The gateway comes with support for Chirpstack 2 and 3, a built in packet forwarder, and an easy way to configure all the MQTT settings required to get the data back to your installation.
 
-Full instructions are available [on the ChirpStack website](https://www.chirpstack.io/gateway-bridge/gateway/multitech/), however as the box we are testing is for a specific client who asked specifically for AEP, we have not had a chance at this time to follow those instructions and see the end results.
+All we needed to do was select the correct version from the dropdown, set the EUI, and enter our MQTT settings and the whole thing sprang to life.
 
-### Multitech Conduit Summary
+### RAK 7240 Summary
 
-The Multitech Conduit has long been the darling of the "enterprise" LoRaWAN deployment companies, however we've found that it lacks many features that we would expect to find on a premium model.
+Whilst the lack of general availability via the web store and the need to go via the RAK Reseller programme is a bit of a pain, we're really struggling to find any other issues with the RAK 7240 LoRaWAN Gateway.
 
-Whilst the casing is clearly robust, and the need for only one cable makes installing it far more simple than cheaper gateways, we would expect the presets for The Things Network to work without too much effort, and the constant need to reboot in order to apply changes rather than just being able to restart the underlying service makes configuration management far too onerous.
+The price is excellent value for the quality of the device, the setup and configuration process is trivial, and the feature-set is far greater than the Multitech at half the price!
 
-In short, this is a good gateway with a lot of features not seen on the cheaper models, however it is let down by the constant need to restart after every change, poor monitoring support, and an overly arduous initial setup process.
+This gateway will be going onto our Demonstration Farm to prove itself very soon, however at the time of writing this post the RAK 7240 is so impressive that we'll be basing all future rollouts on it until something better or more appropriate to the specific project environment comes along.
