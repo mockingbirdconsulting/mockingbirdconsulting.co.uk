@@ -2,3 +2,9 @@
 [[redirects]]
   from = "/case_studies/*"
   to = "/case-studies/:splat"
+
+# Set CORS
+[[headers]]
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*.mockingbirdconsulting.co.uk"
