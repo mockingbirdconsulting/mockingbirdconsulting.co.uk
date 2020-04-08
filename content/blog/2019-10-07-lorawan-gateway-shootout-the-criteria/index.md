@@ -93,7 +93,7 @@ The devices we're planning to cover at present are (in the following order!):
 
    * The Laird Sentrius RG186
    * The Multitech Conduit
-   * The RAK7240 Commercial Gateway
+   * The [RAK7240 Commercial Gateway](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7240)
    * A "home-brew" gateway based on the IMST IC880A and a Raspberry Pi
    
 As we discover/purchase/are offered more gateways to review, we'll update the series of posts, but for now we'll leave you with the observation that whilst we'll mention the price of each gateway (including antennae etc.), it's not one of the judging criteria - if a gateway outshines all the others based on functionality, then it's probably worth the money you're paying for it...

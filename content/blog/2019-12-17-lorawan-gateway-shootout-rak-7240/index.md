@@ -22,7 +22,7 @@ We're comparing various models of LoRaWAN Gateways to help you work out which is
 
 {{< bundle-image alt="The RAK7240 Gateway" name="header" caption="The RAK 7240 Gateway" >}}
 
-This week, we're looking at the RAK 7240 - an outdoor gateway that retails for around £500 and available via RAK resellers.  This gateway is **not** available on the RAK website.
+This week, we're looking at the [RAK 7240](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7240) - an outdoor gateway that retails for around £500 and is available via RAK resellers.
 
 Power is *only* supplied via Power over Ethernet (PoE), so an ethernet cable will still need to be run and a PoE injector needs to be present in the system, however the PoE option means that unlike the [Laird RG1xx we reviewed previously](/blog/2019-10-07-lorawan-gateway-shootout-laird-rg186/) you can connect these gateways to the internet with just a single cable.
 
