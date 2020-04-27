@@ -47,7 +47,7 @@ bgImage = "images/header-bg.jpg"
 heading = "CONNECTING YOU WITH YOUR"
 description = "OUR SOLUTIONS FOR MONITORING THE WORLD IN WHICH YOU LIVE AND WORK ARE PROVEN TO ENHANCE THE WAY YOU INTERACT WITH YOUR ENVIRONMENT"
 # button
-btn     = true
+btn     = false
 btnText = "Download More"
 btnURL  = "https://themefisher.com/"
 
