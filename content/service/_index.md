@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-date: 2018-07-15T12:32:37+06:00
+title: "Service"
+date: 2018-07-14T12:58:14+06:00
 description : "This is meta description"
 ---
 
