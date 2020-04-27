@@ -8,3 +8,6 @@
 for = "/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
+
+[context.deploy-preview]
+command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
