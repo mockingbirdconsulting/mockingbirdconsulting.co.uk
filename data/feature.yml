@@ -1,0 +1,34 @@
+enable  : true
+title   : OUR OFFER
+subtitle: >
+  Here's what you can expect from our team when you engage with us or purchase one of our kits.
+item    :
+  - icon  : ion-ios-flask-outline
+    title : Discovery
+    description : >
+      If you work in Agriculture or want one of our bespoke packages, we'll have a conversation with you about the challenges you face. From this, we'll come up with a list of sensors we can recommend to help you monitor any areas of your estate that are problematic or opaque.
+
+  - icon  : ion-ios-lightbulb-outline
+    title : Pre-packaged kits for when you're in a hurry
+    description : >
+      If you work in Retail, Commerce, or Industry, and you know what you want to monitor, then there's almost certainly a pre-configured kit for you.  Place your order, we'll configure everything for you in advance, all you need to do is plug it in and watch the data arrive on your personalised dashboard.
+
+  - icon  : ion-ios-americanfootball-outline
+    title : Free updates
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-keypad-outline
+    title : Solid Support
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-barcode-outline
+    title : Simple Installation
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+  
+  - icon  : ion-ios-lightbulb-outline
+    title : Well documented.
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
