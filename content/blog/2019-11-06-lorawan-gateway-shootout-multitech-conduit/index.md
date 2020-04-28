@@ -3,7 +3,7 @@ title: "The LoRaWAN Gateway Shoot-out - the Multitech Conduit"
 date: 2019-11-06T00:00:00+00:00 
 description: "How does the Multitech Conduit LoRaWAN Gateway stack up against our criteria?"
 featured: true
-image: blog/2019-11-06-lorawan-gateway-shootout-multitech-conduit/multitech.jpg
+image: blog/2019-11-06-lorawan-gateway-shootout-multitech-conduit/MultitechConduit.png
 tags:
   - LoRaWAN 
   - IoT
@@ -11,7 +11,7 @@ tags:
   - Multitech
 resources:
   - name: header
-    src: multitech.jpg
+    src: MultitechConduit.png
   - name: presets
     src: presets.png
   - name: status
