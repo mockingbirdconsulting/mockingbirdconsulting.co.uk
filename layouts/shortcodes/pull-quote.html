@@ -2,8 +2,9 @@
 {{ $person := .Get "person"}}
 {{ $secondary := .Get "secondary"}}
 <blockquote class="blockquote">
-<p>{{ $quotation }}</p>
+<p>{{ $quotation }}
 {{ with $person }}
-<p class="blockquote-footer">{{ $person }}, <cite>{{ $secondary }}</cite></footer>
+<br class="blockquote-footer">&mdash; {{ $person }}, <cite>{{ $secondary }}</cite>
 {{ end }}
+</p>
 </blockquote>
