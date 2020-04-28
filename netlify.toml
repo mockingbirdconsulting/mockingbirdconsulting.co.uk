@@ -10,4 +10,5 @@ for = "/*"
 Access-Control-Allow-Origin = "*"
 
 [context.deploy-preview]
+HUGO_VERSION = "0.69.2"
 command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
