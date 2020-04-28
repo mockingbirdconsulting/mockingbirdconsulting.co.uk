@@ -1,8 +1,5 @@
 # A basic redirect rule
 [[redirects]]
-  from = "/case_studies/*"
-  to = "/portfolio/:splat"
-
   from = "/case-studies/*"
   to = "/portfolio/:splat"
 
