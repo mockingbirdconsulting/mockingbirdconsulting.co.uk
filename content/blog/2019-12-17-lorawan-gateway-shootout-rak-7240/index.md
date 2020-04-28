@@ -2,6 +2,8 @@
 title: "The LoRaWAN Gateway Shoot-out - the RAK 7240"
 date: 2019-12-17T00:00:00+00:00 
 description: "How does the RAK 7240 LoRaWAN Gateway stack up against our criteria?"
+featured: true
+image: blog/2019-12-17-lorawan-gateway-shootout-rak-7240/rak.jpg
 tags:
   - LoRaWAN 
   - IoT
