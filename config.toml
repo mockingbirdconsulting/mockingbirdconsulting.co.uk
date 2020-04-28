@@ -81,7 +81,7 @@ btnURL  = "/contact"
 # Portfolio Section On Homepage
 [params.portfolio]
 enable  = true
-title   = "Latest Projects and Sensors"
+title   = "Latest Projects and Blog Posts"
 subtitle= "From Farming to Factories and Offices to Shops, find out what we've been up to recently and get inspiration from our blog posts and analysis"
 
 # social icon
