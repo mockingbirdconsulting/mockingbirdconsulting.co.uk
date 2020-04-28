@@ -1,7 +1,10 @@
 # A basic redirect rule
 [[redirects]]
   from = "/case_studies/*"
-  to = "/case-studies/:splat"
+  to = "/portfolio/:splat"
+
+  from = "/case-studies/*"
+  to = "/portfolio/:splat"
 
 # Set CORS
 [[headers]]
@@ -10,5 +13,5 @@ for = "/*"
 Access-Control-Allow-Origin = "*"
 
 [context.deploy-preview]
-HUGO_VERSION = "0.69.2"
-command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
+    HUGO_VERSION = "0.69.2"
+    command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
