@@ -1,7 +1,16 @@
 ---
 title: "Making better wine with the Internet of Things"
+type: portfolio
 date: 2018-11-13T06:00:12+01:00
 description: "How do you ensure the best possible crop when you're producing bottles of wine that sell for over £1,000?"
+caption: Improving crop yield
+featured: yes
+image: portfolio/joto-systems/lushvines.png
+client: JoTo Systems
+location: "Coonawarra Valley, Australia"
+category: ["Smart Farming", "Smart Agriculture", "IoT"]
+startDate: November 2018
+liveLink: "" 
 resources: 
   - name: header
     src: lushvines.png
