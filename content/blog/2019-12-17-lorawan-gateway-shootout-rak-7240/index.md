@@ -16,13 +16,18 @@ resources:
     src: presets.png
   - name: status
     src: gatewaystatus.png
+reviewOverview: A fantastic router for the price, easy to setup and clear on current activity.
+keyFacts:
+  positive:
+    - Easy to configure
+    - Fantastic overview screen
+  negative:
+    - Installing custom software is unsupported
 
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
 
 We're comparing various models of LoRaWAN Gateways to help you work out which is best for your project.
-
-{{< bundle-image alt="The RAK7240 Gateway" name="header" caption="The RAK 7240 Gateway" >}}
 
 This week, we're looking at the [RAK 7240](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7240) - an outdoor gateway that retails for around £500 and is available via RAK resellers.
 
