@@ -98,8 +98,6 @@ Monitoring of the RAK 7240 is relatively straight forward, and it has an excelle
 
 We already have an MQTT connection from the gateway for our LoRaWAN traffic and our aim in future is to utilise this to send more advanced metrics back to our monitoring platform, however for now we can use both the TTN NOC API (be careful, this is not stable as using it for monitoring is not really its intended purpose!), or the Chipstack API to see when the gateway last reported in to the appropriate platform.
 
-{{< bundle-image alt="The alerting and notification screen on the Multitech Conduit" name="alerting" >}}
-
 Pulling this data into Grafana means that we can easily integrate with "ChatOps" solutions based on slack and third-party alert providers such as PagerDuty or VictorOps, allowing us to alert when a gateway has been offline or hasn't seen any data for a given amount of time.
 
 All in all, the ease of configuration, options for future monitoring tooling, and stability of connectivity failover make this the best gateway we've used so far when it comes to supporting and deploying the device.
