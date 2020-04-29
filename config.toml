@@ -1,6 +1,5 @@
 baseURL = "https://www.mockingbirdconsulting.co.uk/"
 languageCode = "en-gb"
-title = "Connecting you with your environment | Mockingbird Consulting"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -39,6 +38,8 @@ author = "Mockingbird Consulting Ltd"
 googleAnalitycsID = "Your ID"
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
+siteName = "Mockingbird Consulting"
+title = "Connecting you with your environment"
 
 # Banner Section
 [params.banner]
