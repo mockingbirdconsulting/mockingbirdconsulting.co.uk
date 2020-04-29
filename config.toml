@@ -46,7 +46,7 @@ title = "Connecting you with your environment"
 enable  = true
 bgImage = "images/header-bg.jpg"
 heading = "CONNECTING YOU WITH YOUR"
-description = "OUR SOLUTIONS FOR MONITORING THE WORLD IN WHICH YOU LIVE AND WORK ARE PROVEN TO ENHANCE THE WAY YOU INTERACT WITH YOUR ENVIRONMENT"
+description = "Monitoring solutions proven to enhance your working environment"
 # button
 btn     = false
 btnText = "Download More"
@@ -75,8 +75,8 @@ image   = "images/about/about.jpg"
 [params.cta]
 enable  = true
 title   = "WANT TO KNOW MORE?"
-content = "Arrange a free 30 minute consultation with one of our team so we can help you get started"
-btnText = "Book Now!"
+content = "Get a free, no-commitment 30-minute consultation for your farm, office, factory, or shop"
+btnText = "Let's go!"
 btnURL  = "/contact"
 
 # Portfolio Section On Homepage
