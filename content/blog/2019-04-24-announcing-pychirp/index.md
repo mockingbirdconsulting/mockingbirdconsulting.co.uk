@@ -4,7 +4,7 @@ author: Mockingbird Consulting
 type: post
 date: 2019-04-24T06:00:00+00:00
 description: "A python library for working with Chirpstack.io"
-image: /blog/2019-04-24-announcing-pyloraserver/pychirpcode.png
+image: /blog/2019-04-24-announcing-pychirp/pychirpcode.png
 resources:
   - name: header
     src: pychirpcode.png
@@ -23,8 +23,6 @@ Pychirp is a python library designed to help developers interact with the [Chirp
 This could range from providing additional functionality to an existing portal through to using [TensorFlow](https://www.tensorflow.org/) to analyse data streams and trigger LoRaWAN events and alerts based on metric thresholds.
 
 As well as releasing the code, we're also publishing the documentation on [Read The Docs](https://pychirp.readthedocs.io/) where you'll find examples on how to list and create new devices alongside full descriptions of each class and the associated methods.
-
-{{< bundle-image name="header" caption="The Pychirp code in action" >}}
 
 We're already using the library to provision new devices, and as we improve the functionality, we'll be baking it in to our products as well, but we don't just want it to be us who uses and benefits from this.
 
