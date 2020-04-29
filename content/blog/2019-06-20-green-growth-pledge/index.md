@@ -1,9 +1,10 @@
 ---
 title: The Green Growth Pledge
 author: Mockingbird Consulting
-type: post
 date: 2019-06-21:00:00+00:00
 description: "We're signed up to the Green Growth Pledge. Here's how it helps our customers like you."
+image: /blog/2019-06-20-green-growth-pledge/greengrowthpledgeenglish_small.png
+featured: true
 resources:
   - name: header
     src: greengrowthpledgeenglish.png
@@ -13,7 +14,6 @@ tags:
   - Environmental Responsibility
   - Going Green
 ---
-{{< bundle-image  alt="The Green Growth Pledge Logo" name="header" size="300x300">}}
 
 When we started Mockingbird Consulting, we did so with a view to supporting communities, farmers, and rural towns/villages in their quest to understand their environment better.
 
