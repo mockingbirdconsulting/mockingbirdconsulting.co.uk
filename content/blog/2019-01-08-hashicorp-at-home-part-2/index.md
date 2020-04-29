@@ -2,8 +2,7 @@
 title: "Hashicorp at Home - Part 2"
 date: 2019-01-08T06:33:12+01:00
 description: 'Part two in our series on building a home lab'
-images: 
-  - /img/NomadConsole.png 
+image: /blog/2019-01-08-hashicorp-at-home-part-2/NomadConsole.png
 tags: 
   - Automation 
   - Hashicorp 
@@ -21,8 +20,7 @@ resources:
     src: vaultarch.png
 ---
 
-We're [Hashicorp partners](https://www.hashicorp.com/partners#mockingbird-
-consulting), however up until now we've kept our experience and deployments
+We're [Hashicorp partners](https://www.hashicorp.com/partners#mockingbird-consulting), however up until now we've kept our experience and deployments
 firmly in the cloud. We wondered if the Hashicorp tooling would help us in
 other situations, and found that it performed even better than we had hoped.
 
