@@ -16,6 +16,14 @@ resources:
     src: presets.png
   - name: status
     src: gatewaystatus.png
+reviewOverview: A budget, indoor gateway with limited management features, but perfect for small projects or experimentation.
+keyFacts:
+  positive:
+    - Easy to configure
+    - WiFi connectivity
+  negative:
+    - No LTE support
+    - No remote management capability or VPN Configuration
 
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
