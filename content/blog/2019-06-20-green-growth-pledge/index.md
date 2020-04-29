@@ -1,7 +1,7 @@
 ---
 title: The Green Growth Pledge
 author: Mockingbird Consulting
-date: 2019-06-21:00:00+00:00
+date: 2019-06-21T00:00:00+01:00
 description: "We're signed up to the Green Growth Pledge. Here's how it helps our customers like you."
 image: /blog/2019-06-20-green-growth-pledge/greengrowthpledgeenglish_small.png
 featured: true
