@@ -9,6 +9,7 @@ tags:
   - IoT
   - Gateways
   - RAK
+  - Gateway Reviews
 resources:
   - name: header
     src: rak.jpg
@@ -23,7 +24,11 @@ keyFacts:
     - Fantastic overview screen
   negative:
     - Installing custom software is unsupported
-
+learnMore:
+  - name: The Criteria
+    uri: /blog/2019-10-07-lorawan-gateway-shootout-the-criteria/
+  - name: Other Reviews
+    uri: /blog/2019-10-07-lorawan-gateway-shootout-the-criteria/
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
 
