@@ -35,7 +35,7 @@ dateFormat = "6 January 2006"
 description = "Connecting you with your environment"
 author = "Mockingbird Consulting Ltd"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-98611453-1"
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
 siteName = "Mockingbird Consulting"
