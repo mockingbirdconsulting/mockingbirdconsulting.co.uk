@@ -69,7 +69,7 @@ title   = "ENVIRONMENT"
 enable  = true
 title   = "KNOW MORE. MAKE BETTER DECISIONS."
 content = "The more you know about the environment around you, the more effectively you can manage it.<br /><br />Whether you're looking to keep track of your livestock and heavy plant on a farm or building site, want insights into how your customers feel about your business, or just want to ensure that meeting rooms are being used as effectively as possible - Mockingbird Consulting have a solution for you."
-image   = "images/about/about.jpg"
+image   = "images/about.png"
 
 # Call to Action
 [params.cta]
