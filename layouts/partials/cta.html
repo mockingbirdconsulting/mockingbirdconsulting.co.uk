@@ -7,7 +7,7 @@
                 <div class="block">
                     {{ with .Site.Params.cta.title }}<h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h1>{{ end }}
                     {{ with .Site.Params.cta.content }}<p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">{{ . | safeHTML }}</p>{{ end }}
-                    <button id="bookIntro" onclick="Calendly.showPopupWidget('https://calendly.com/mockingbirdconsulting/introductions');return false;" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">{{ .Site.Params.cta.btnText }}</button>
+                    <button id="bookIntro" onclick="Calendly.showPopupWidget('https://calendly.com/mockingbirdconsulting/introductions');ga('send', 'event', 'button', 'click', 'book-intro');return false;" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">{{ .Site.Params.cta.btnText }}</button>
                 </div>
             </div>
 
