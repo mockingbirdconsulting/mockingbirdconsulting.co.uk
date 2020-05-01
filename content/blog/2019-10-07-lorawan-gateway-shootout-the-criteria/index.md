@@ -1,7 +1,7 @@
 --- 
 title: "The LoRaWAN Gateway Shoot-out - the criteria!"
 date: 2019-10-04T00:00:00+01:00 
-description: "We're taking four of the most popular LoRaWAN gateways and comparing them side by side - here's the criteria..."
+summary: "We're taking a number of the most popular LoRaWAN gateways and comparing them side by side - here's the criteria we're using to help you find the one that works best for you"
 featured: true
 image: blog/2019-10-07-lorawan-gateway-shootout-the-criteria/gateways.jpg
 tags:
@@ -27,7 +27,7 @@ It enables us to receive and process data about your environment from up to 20 m
 
 The best way to think about the Gateway is like the WiFi Router you have in your house. It might still be the one that your Internet Service Provider gave you, or you might have chosen to purchase your own because you want "more" out of your network.
 
-Just like the WiFi Router market, the LoRaWAN Gateway market is full of promise and wonder, so in this series we're taking four of the most popular LoRaWAN Gateways and putting them to the test.
+Just like the WiFi Router market, the LoRaWAN Gateway market is full of promise and wonder, so in this series we're taking a number of the most popular LoRaWAN Gateways and putting them to the test.
 
 ## What will we cover?
 

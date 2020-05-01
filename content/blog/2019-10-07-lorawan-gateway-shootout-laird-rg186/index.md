@@ -2,6 +2,8 @@
 title: "The LoRaWAN Gateway Shoot-out - the Laird RG186"
 date: 2019-10-07T00:00:00+01:00 
 description: "How does the Laird RG186 LoRaWAN Gateway stack up against our criteria?"
+summary: >
+    This week, we're looking at the Laird RG186 - an indoor gateway (with an option for an external casing) that retails for around £200 and is available from the larger hardware suppliers such as RS Components and Mouser. How will it stack up against our criteria?
 featured: true
 image: blog/2019-10-07-lorawan-gateway-shootout-laird-rg186/LoRaGateway01.png
 tags:
