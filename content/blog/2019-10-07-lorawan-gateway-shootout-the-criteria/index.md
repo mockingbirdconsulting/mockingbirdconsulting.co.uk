@@ -1,7 +1,7 @@
 --- 
 title: "The LoRaWAN Gateway Shoot-out - the criteria!"
 date: 2019-10-04T00:00:00+01:00 
-description: "We're taking four of the most popular LoRaWAN gateways and comparing them side by side - here's the criteria..."
+summary: "We're taking some of the most popular LoRaWAN gateways and comparing them side by side - here's the criteria we're using to evaluate them."
 featured: true
 image: blog/2019-10-07-lorawan-gateway-shootout-the-criteria/gateways.jpg
 tags:

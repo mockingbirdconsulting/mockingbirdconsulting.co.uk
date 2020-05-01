@@ -2,6 +2,7 @@
 title: "Hashicorp at Home"
 date: 2019-01-02T06:33:12+01:00 
 description: 'What happens when you take Hashicorp out of the cloud and on to a home network?'
+summary: 'What happens when you take Hashicorp out of the cloud and on to a home network?'
 image: /blog/2019-01-05-hashicorp-at-home/homeautomationTheoldway.jpg
 tags:
   - Automation 
