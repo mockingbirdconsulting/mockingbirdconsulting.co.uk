@@ -15,4 +15,5 @@ Access-Control-Allow-Origin = "*"
 
 [context.branch-deploy]
 HUGO_VERSION = "0.69.2"
+HUGO_PARAMS_GOOGLEANALYTICSID="UA-98611453-2"
 command =  "hugo  --enableGitInfo --minify  --buildFuture --ignoreCache -b $DEPLOY_PRIME_URL"
