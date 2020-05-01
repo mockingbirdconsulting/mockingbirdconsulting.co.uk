@@ -3,7 +3,8 @@ title: Announcing "Pychirp"
 author: Mockingbird Consulting
 type: post
 date: 2019-04-24T06:00:00+00:00
-description: "A python library for working with Chirpstack.io"
+summary: >
+    Pychirp is a python library designed to help developers interact with the [Chirpstack.io](https://chirpstack.io) project from within their existing python applications.
 image: /blog/2019-04-24-announcing-pychirp/pychirpcode.png
 resources:
   - name: header
