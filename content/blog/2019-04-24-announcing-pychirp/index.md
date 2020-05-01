@@ -4,7 +4,6 @@ author: Mockingbird Consulting
 type: post
 date: 2019-04-24T06:00:00+00:00
 description: "A python library for working with Chirpstack.io"
-summary: "A python library for working with Chirpstack.io"
 image: /blog/2019-04-24-announcing-pychirp/pychirpcode.png
 resources:
   - name: header
