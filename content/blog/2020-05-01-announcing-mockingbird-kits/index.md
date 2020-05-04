@@ -5,7 +5,7 @@ description: "Ready to go environmental monitoring for your shop, office, factor
 summary: >
     Our Kits provide plug-and-play environmental monitoring for your office, shop, factory, or venue, giving you real-time insights in to the way in which your customers are interacting with their surroundings.
 featured: true
-image: /images/about.png
+image: /images/kits/Core.png
 tags:
   - LoRaWAN 
   - IoT
