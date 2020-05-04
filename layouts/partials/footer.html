@@ -1,32 +1,57 @@
-<footer>
+{{ "<!-- Footer Section Start -->" | safeHTML }}
+<footer id="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <p>Mockingbird Consulting is registered in England and Wales. Company Number 10488438. </p>
-                    <p>Registered Address: Bridges Centre, Drybridge House, Monmouth, NP25 5AS.</p>
-                    <p>Copyright &copy {{ dateFormat "2006" now }};
-                    <a href="https://www.mockingbirdconsulting.co.uk/">Mockingbird Consulting Ltd</a> | Theme by <a href="http://www.Themefisher.com">Themefisher</a>| All right reserved.
-                    </p>
-
-                </div>
+        <div class="row content-justify-between">
+            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                <p class="copyright">All content &copy; 
+                        <script>document.write(new Date().getFullYear())</script>
+                        Mockingbird Consulting Ltd. <br />
+                        Images and other registered marks remain the property of their respective owners.
+                    <br />
+                    Mockingbird Consulting is registered in England and Wales. Company Number 10488438
+                    <br />
+                    Registered Address: Drybridge House, Rockfield Road, Monmouth, NP25 5AS
+                </p>
+            </div>
+            <div class="col-md-4 col-12">
+                {{ "<!-- Social Media -->" | safeHTML }}
+                <ul class="social text-center text-md-right text-lg-right">
+                    {{ range .Site.Params.socialIcon }}
+                    <li><a href="{{ .url | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                    {{ end }}
+                </ul>
             </div>
         </div>
     </div>
 </footer>
+{{ "<!-- footer section end -->" | safeHTML }}
 
-
-{{"<!-- Js -->" | safeHTML}}
-<script src="{{"js/vendor/jquery-2.1.1.min.js" | absURL}}"></script>
-<script src="{{"js/bootstrap.min.js" | absURL}}"></script>
-<script src="{{"js/vendor/modernizr-2.6.2.min.js" | absURL}}"></script>
-<script src="{{"js/owl.carousel.min.js" | absURL}}"></script>
-<script src="{{"js/jquery.validate.min.js" | absURL}}"></script>
-<script src="{{"js/jquery.form.js" | absURL}}"></script>
-<script src="{{"js/jquery.nav.js" | absURL}}"></script>
-<script src="{{"js/wow.min.js" | absURL}}"></script>
-<script src="{{"js/main.js" | absURL}}"></script>
-{{ partial "matomo.html" . }}
-</body>
-
-</html>
+{{ "<!-- jquery -->" | safeHTML }}
+<script src="{{ `plugins/jQurey/jquery.min.js` | absURL }}"></script>
+{{ "<!-- Form Validation -->" | safeHTML }}
+<script src="{{ `plugins/form-validation/jquery.form.js` | absURL }}"></script>
+<script src="{{ `plugins/form-validation/jquery.validate.min.js` | absURL }}"></script>
+{{ "<!-- slick slider -->" | safeHTML }}
+<script src="{{ `plugins/slick/slick.min.js` | absURL }}"></script>
+{{ "<!-- bootstrap js -->" | safeHTML }}
+<script src="{{ `plugins/bootstrap/bootstrap.min.js` | absURL }}"></script>
+{{ "<!-- wow js -->" | safeHTML }}
+<script src="{{ `plugins/wow-js/wow.min.js` | absURL }}"></script>
+{{ "<!-- slider js -->" | safeHTML }}
+<script src="{{ `plugins/slider/slider.js` | absURL }}"></script>
+{{ "<!-- Fancybox -->" | safeHTML }}
+<script src="{{ `plugins/facncybox/jquery.fancybox.js` | absURL }}"></script>
+{{ "<!-- template main js -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ "<!-- Calendly -->" | safeHTML }}
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> 
+{{ "<!-- google analitycs -->" | safeHTML }}
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
+    ga('send', 'pageview');
+</script>

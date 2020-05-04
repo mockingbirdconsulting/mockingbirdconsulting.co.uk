@@ -2,11 +2,16 @@
 title: "The LoRaWAN Gateway Shoot-out - the RAK 7240"
 date: 2019-12-17T00:00:00+00:00 
 description: "How does the RAK 7240 LoRaWAN Gateway stack up against our criteria?"
+summary: >
+    This week, we're looking at the RAK 7240 - an outdoor gateway that retails for around £500 and is available via RAK resellers.
+featured: true
+image: blog/2019-12-17-lorawan-gateway-shootout-rak-7240/rak.jpg
 tags:
   - LoRaWAN 
   - IoT
   - Gateways
   - RAK
+  - Gateway Reviews
 resources:
   - name: header
     src: rak.jpg
@@ -14,13 +19,22 @@ resources:
     src: presets.png
   - name: status
     src: gatewaystatus.png
-
+reviewOverview: A fantastic router for the price, easy to setup and clear on current activity.
+keyFacts:
+  positive:
+    - Easy to configure
+    - Fantastic overview screen
+  negative:
+    - Installing custom software is unsupported
+learnMore:
+  - name: The Criteria
+    uri: /blog/2019-10-07-lorawan-gateway-shootout-the-criteria/
+  - name: Other Reviews
+    uri: /blog/2019-10-07-lorawan-gateway-shootout-the-criteria/
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
 
 We're comparing various models of LoRaWAN Gateways to help you work out which is best for your project.
-
-{{< bundle-image alt="The RAK7240 Gateway" name="header" caption="The RAK 7240 Gateway" >}}
 
 This week, we're looking at the [RAK 7240](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7240) - an outdoor gateway that retails for around £500 and is available via RAK resellers.
 
@@ -90,8 +104,6 @@ Monitoring of the RAK 7240 is relatively straight forward, and it has an excelle
 {{< bundle-image alt="The RAK7240 Gateway Status Page" name="status" caption="The RAK 7240 Gateway Status Page" >}}
 
 We already have an MQTT connection from the gateway for our LoRaWAN traffic and our aim in future is to utilise this to send more advanced metrics back to our monitoring platform, however for now we can use both the TTN NOC API (be careful, this is not stable as using it for monitoring is not really its intended purpose!), or the Chipstack API to see when the gateway last reported in to the appropriate platform.
-
-{{< bundle-image alt="The alerting and notification screen on the Multitech Conduit" name="alerting" >}}
 
 Pulling this data into Grafana means that we can easily integrate with "ChatOps" solutions based on slack and third-party alert providers such as PagerDuty or VictorOps, allowing us to alert when a gateway has been offline or hasn't seen any data for a given amount of time.
 

@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+{{ "<!-- Page Header -->" | safeHTML }}
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                {{ with .Params.image }}
+                <div class="work-single-image">
+                    <!-- Work Single Image -->
+                    <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image" />
+                </div>
+                {{ end }}
+                <!-- work single Content -->
+                {{ with .Content }}
+                <div class="work-single-content">
+                    {{ . }}
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-lg-4">
+                <!-- sidebar -->
+                {{ if isset .Params "keyfacts" }}
+                <div class="work-single-sidebar">
+                    <h5>Overview</h5>
+                    {{ .Params.reviewOverview }}
+                    {{ with .Params.keyfacts.positive }}
+                    <h5>Pros</h5>
+                    <ul>{{ range sort . }}<li><b style="color: green">+</b> {{ . }}</li>{{ end }}</ul>
+                    {{ end }}
+                    {{ with .Params.keyfacts.negative }}
+                    <h5>Cons</h5>
+                    <ul>{{ range sort . }}<li><b style="color: red">-</b> {{ . }}</li>{{ end }}</ul>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}

@@ -2,6 +2,10 @@
 title: "The LoRaWAN Gateway Shoot-out - the Multitech Conduit"
 date: 2019-11-06T00:00:00+00:00 
 description: "How does the Multitech Conduit LoRaWAN Gateway stack up against our criteria?"
+summary: >
+    This week, we're looking at the well respected Multitech Conduit - an outdoor gateway that retails for around £1,000 and available from a number of hardware suppliers including RS Components.
+featured: true
+image: blog/2019-11-06-lorawan-gateway-shootout-multitech-conduit/MultitechConduit.png
 tags:
   - LoRaWAN 
   - IoT
@@ -9,20 +13,27 @@ tags:
   - Multitech
 resources:
   - name: header
-    src: multitech.jpg
+    src: MultitechConduit.png
   - name: presets
     src: presets.png
   - name: status
     src: gatewaystatus.png
   - name: alerting
     src: DeviceHQAlerts.png
-
+reviewOverview: Proven technology forming the backbone of many large-scale deployments, but falls short when it comes to ease of configuration and monitoring.
+keyFacts:
+  positive:
+    - Robust Casing
+    - Proven Technology from an established vendor
+    - A popular choice for enterprise deployments, so there's a lot of support out there if needed
+  negative:
+    - Initial setup involves too much effort with network addresses
+    - Expensive compared to similar offerings on the market
+    - Alerting solution could do with an update to using Webhooks rather than just SMS/Email
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
 
 We're comparing various models of LoRaWAN Gateways to help you work out which is best for your project.
-
-{{< bundle-image alt="The Multitech Conduit LoRaWAN Gateway" name="header" caption="The Multitech Conduit with our Raspberry Pi IC880A-based DIY gateway for scale" >}}
 
 This week, we're looking at the well respected [Multitech Conduit](https://www.multitech.com/brands/multiconnect-conduit-ip67) - an outdoor gateway that retails for around £1,000 and available from a number of hardware suppliers including RS Components.
 

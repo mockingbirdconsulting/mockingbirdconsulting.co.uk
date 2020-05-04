@@ -1,0 +1,37 @@
+enable  : true
+title   : OUR OFFER
+subtitle: >
+  Here's what you can expect from our team when you engage with us or purchase one of our kits.
+item    :
+  - icon  : ion-ios-flask-outline
+    title : Bespoke Solutions
+    description : >
+        For when an "off the shelf" solution just won't cut it - our team will tailor our services to your specific environment
+      
+
+  - icon  : ion-ios-lightbulb-outline
+    title : Pre-packaged kits
+    description : >
+      When speed is of the essence - everything you need for a smart venue, shop, office, or factory pre-configured and ready to go
+
+  - icon  : ion-ios-analytics-outline
+    title : Analytics as standard
+    description : >
+        Know more. Make better decisions - our analytics platform allows you to see what your environment is doing in real-time
+      
+
+  - icon  : ion-ios-keypad-outline
+    title : Solid Support
+    description : >
+      We're here for you when you need us - choose from a range of support packages to suite your needs and budget
+
+  - icon  : ion-ios-barcode-outline
+    title : Simple Installation
+    description : >
+      Simple DIY instructions for our kits, dedicated installation services for our bespoke packages
+  
+  - icon  : ion-ios-lightbulb-outline
+    title : Proactive Monitoring
+    description : >
+        Get alerts to your phone before things go wrong, so you can correct them in a controlled manner
+      

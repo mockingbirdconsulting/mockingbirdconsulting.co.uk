@@ -1,11 +1,13 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-{{ partial "preloader.html" . }}
-        
-{{ partial "navigation.html" . }}
+{{ partial "banner.html" . }}
 
-{{ partial "hero-area.html" . }}
+{{ partial "about.html" . }}
 
-{{ partial "contact.html" . }}
+{{ partial "feature.html" . }}
 
-{{ partial "footer.html" . }}
+{{ partial "cta.html" . }}
+
+{{ partial "portfolio.html" . }}
+
+{{ end }}

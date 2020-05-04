@@ -1,7 +1,8 @@
 --- 
 title: "Hashicorp at Home"
 date: 2019-01-02T06:33:12+01:00 
-description: 'What happens when you take Hashicorp out of the cloud and on to a home network?'
+summary: 'What happens when you take Hashicorp out of the cloud and on to a home network?'
+image: /blog/2019-01-05-hashicorp-at-home/homeautomationTheoldway.jpg
 tags:
   - Automation 
   - Hashicorp
@@ -23,8 +24,7 @@ resources:
     src: MiniCloud.png
 
 ---
-We're [Hashicorp partners](https://www.hashicorp.com/partners#mockingbird-
-consulting), however up until now we've kept our experience and deployments
+We're [Hashicorp partners](https://www.hashicorp.com/partners#mockingbird-consulting), however up until now we've kept our experience and deployments
 firmly in the cloud. We wondered if the Hashicorp tooling would help us in
 other situations, and found that it performed even better than we had hoped.
 
@@ -40,8 +40,6 @@ running on a multitude of Raspberry Pi's or similar devices. I had one pi for
 another for [NXFilter](https://www.nxfilter.org) to keep my kids safe online,
 more still to manage my 3D printer and CNC Machine, and a couple connected to
 the network "just in case" for experimentation purposes.
-
-{{< bundle-image  alt="The previous server setup" name="header" >}}
 
 I'd mounted them on a bit of 9mm Plywood, along with power supplies and a
 network switch, and it had been working fine, until I upgraded the networking

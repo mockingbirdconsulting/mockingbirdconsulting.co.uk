@@ -2,6 +2,10 @@
 title: "The LoRaWAN Gateway Shoot-out - the Laird RG186"
 date: 2019-10-07T00:00:00+01:00 
 description: "How does the Laird RG186 LoRaWAN Gateway stack up against our criteria?"
+summary: >
+    This week, we're looking at the Laird RG186 - an indoor gateway (with an option for an external casing) that retails for around £200 and is available from the larger hardware suppliers such as RS Components and Mouser. How will it stack up against our criteria?
+featured: true
+image: blog/2019-10-07-lorawan-gateway-shootout-laird-rg186/LoRaGateway01.png
 tags:
   - LoRaWAN 
   - IoT
@@ -14,13 +18,19 @@ resources:
     src: presets.png
   - name: status
     src: gatewaystatus.png
+reviewOverview: A budget, indoor gateway with limited management features, but perfect for small projects or experimentation.
+keyFacts:
+  positive:
+    - Easy to configure
+    - WiFi connectivity
+  negative:
+    - No LTE support
+    - No remote management capability or VPN Configuration
 
 ---
 The technology that underpins our [farm and estates management solution](https://www.mockingbirdconsulting.co.uk/) is called LoRaWAN.
 
 We're comparing various models of LoRaWAN Gateways to help you work out which is best for your project.
-
-{{< bundle-image alt="The Laird Sentrius RG1xx LoRaWAN Gateway" name="header" >}}
 
 This week, we're looking at the [Laird RG186](https://www.lairdconnect.com/wireless-modules/lorawan-solutions/sentrius-rg1xx-lora-enabled-gateway-wi-fi-bluetooth-ethernet) - an indoor gateway that retails for around £200 and is available from the larger hardware suppliers such as RS Components and Mouser.
 

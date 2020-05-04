@@ -1,4 +1,6 @@
 ---
-title: "Welcome to our blog"
-description: "Want to know the latest on IoT, Technology, and Agriculture? This is the place to be!"
+title: "Blog"
+date: 2018-07-15T12:32:37+06:00
+description : "This is meta description"
 ---
+
