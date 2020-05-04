@@ -9,10 +9,10 @@ theme = "timer-hugo"
 #name    = "About"
 #url     = "about"
 #weight  = 2
-#[[menu.main]]
-#name    = "Service"
-#url     = "service"
-#weight  = 3
+[[menu.main]]
+name    = "Kits"
+url     = "kits"
+weight  = 3
 [[menu.main]]
 name    = "Portfolio"
 url     = "portfolio"
