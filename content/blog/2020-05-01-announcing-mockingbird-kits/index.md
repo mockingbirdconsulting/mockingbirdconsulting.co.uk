@@ -1,6 +1,6 @@
 --- 
 title: "Announcing Mockingbird Kits"
-date: 2020-05-04T00:00:00+00:00 
+date: 2020-05-01T00:00:00+00:00 
 description: "Ready to go environmental monitoring for your shop, office, factory, or venue."
 summary: >
     Our Kits provide plug-and-play environmental monitoring for your office, shop, factory, or venue, giving you real-time insights in to the way in which your customers are interacting with their surroundings.
