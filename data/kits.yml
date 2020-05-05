@@ -1,0 +1,11 @@
+enable  : true
+galleryImages :
+  - image : images/kits/Core.png
+    name: Core
+    description: The starting point for your environmental monitoring journey
+  - image : images/kits/small-shop.jpg
+  - image : images/kits/large-shop.jpg
+  - image : images/kits/small-venue.jpg
+  - image : images/kits/large-venue.jpg
+  - image : images/kits/small-commercial.jpg
+  - image : images/kits/large-commercial.jpg
