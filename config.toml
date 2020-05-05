@@ -52,6 +52,17 @@ btn     = false
 btnText = "Download More"
 btnURL  = "https://themefisher.com/"
 
+# Custom 404 settings
+[params.banner404]
+enable  = true
+bgImage = "images/header-bg.jpg"
+heading = "Page not found"
+description = "We're sorry we couldn't find what you were looking for."
+# button
+btn     = false
+btnText = "Download More"
+btnURL  = "https://themefisher.com/"
+
 # flip text
 [[params.banner.flipText]]
 title   = "FARM"
