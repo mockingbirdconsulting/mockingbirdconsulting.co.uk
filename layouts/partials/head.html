@@ -56,8 +56,8 @@
   <meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
-  {{ with .Resources.GetMatch "header" }}
-  <meta property="og:image" content="{{ .Permalink }}" />
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
   <meta property="og:updated_time" content="{{ .Date }}"/>
 
