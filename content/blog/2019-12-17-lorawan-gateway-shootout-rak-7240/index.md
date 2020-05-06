@@ -6,6 +6,8 @@ summary: >
     This week, we're looking at the RAK 7240 - an outdoor gateway that retails for around £500 and is available via RAK resellers.
 featured: true
 image: blog/2019-12-17-lorawan-gateway-shootout-rak-7240/rak.jpg
+images:
+  - blog/2019-12-17-lorawan-gateway-shootout-rak-7240/rak.jpg
 tags:
   - LoRaWAN 
   - IoT

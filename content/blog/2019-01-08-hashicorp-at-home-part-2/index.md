@@ -3,6 +3,8 @@ title: "Hashicorp at Home - Part 2"
 date: 2019-01-08T06:33:12+01:00
 summary: 'Part two in our series on building a home lab'
 image: /blog/2019-01-08-hashicorp-at-home-part-2/NomadConsole.png
+images: 
+  - /blog/2019-01-08-hashicorp-at-home-part-2/NomadConsole.png
 tags: 
   - Automation 
   - Hashicorp 

@@ -4,6 +4,8 @@ date: 2019-10-04T00:00:00+01:00
 summary: "We're taking a number of the most popular LoRaWAN gateways and comparing them side by side - here's the criteria we're using to help you find the one that works best for you"
 featured: true
 image: blog/2019-10-07-lorawan-gateway-shootout-the-criteria/gateways.jpg
+images: 
+  - blog/2019-10-07-lorawan-gateway-shootout-the-criteria/gateways.jpg
 tags:
   - LoRaWAN 
   - IoT

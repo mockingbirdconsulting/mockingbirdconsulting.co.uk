@@ -32,4 +32,36 @@
   {{ "<!-- template main css file -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
+  <script type="application/ld+json">
+      {
+          "@context" : "http://schema.org",
+          "@type" : "WebPage",
+          "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "{{ .Site.BaseURL }}"
+          },
+          "name" : "{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}{{ .Site.Params.sitename }}",
+          "description" : "{{ .Params.description | default .Site.Params.description }}",
+          "inLanguage" : "en-GB",
+          "author" : "Mockingbird Consulting Ltd",
+          "copyrightHolder" : "Mockingbird Consulting Ltd",
+          "copyrightYear" : "{{ now.Format "2006" }}",
+          "url" : "{{ .Permalink }}",
+          "keywords" : {{ .Scratch.Get "seo_tags" }},
+      }
+      </script>
+      <!-- Open Graph Data -->
+      <meta property="og:title" content="{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}{{ .Site.Title }}" />
+  <meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  {{ with .Resources.GetMatch "header" }}
+  <meta property="og:image" content="{{ .Permalink }}" />
+  {{ end }}
+  <meta property="og:updated_time" content="{{ .Date }}"/>
+
+  {{ template "_internal/twitter_cards.html" . }}
+
+
 </head>
