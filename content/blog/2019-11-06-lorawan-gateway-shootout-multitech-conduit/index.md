@@ -6,6 +6,8 @@ summary: >
     This week, we're looking at the well respected Multitech Conduit - an outdoor gateway that retails for around £1,000 and available from a number of hardware suppliers including RS Components.
 featured: true
 image: blog/2019-11-06-lorawan-gateway-shootout-multitech-conduit/MultitechConduit.png
+images: 
+  - blog/2019-11-06-lorawan-gateway-shootout-multitech-conduit/MultitechConduit.png
 tags:
   - LoRaWAN 
   - IoT

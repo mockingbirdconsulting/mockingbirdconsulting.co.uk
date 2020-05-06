@@ -5,6 +5,8 @@ date: 2019-06-21T00:00:00+01:00
 summary: >
     The Green Growth Pledge provides a practical way for businesses to demonstrate their positive impact on the people and places around them and join a growing community of forward-thinking organisations.  We're delighted to be a part of that group as our journey towards international standards of compliance continues
 image: /blog/2019-06-20-green-growth-pledge/greengrowthpledgeenglish_small.png
+images: 
+  - /blog/2019-06-20-green-growth-pledge/greengrowthpledgeenglish_small.png
 featured: true
 resources:
   - name: header

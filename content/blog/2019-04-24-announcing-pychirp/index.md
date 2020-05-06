@@ -6,6 +6,8 @@ date: 2019-04-24T06:00:00+00:00
 summary: >
     Pychirp is a python library designed to help developers interact with the [Chirpstack.io](https://chirpstack.io) project from within their existing python applications.
 image: /blog/2019-04-24-announcing-pychirp/pychirpcode.png
+images: 
+  - /blog/2019-04-24-announcing-pychirp/pychirpcode.png
 resources:
   - name: header
     src: pychirpcode.png

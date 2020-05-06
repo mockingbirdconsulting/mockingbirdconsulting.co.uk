@@ -6,6 +6,8 @@ description: "How do you ensure the best possible crop when you're producing bot
 caption: Improving crop yield
 featured: yes
 image: portfolio/joto-systems/lushvines.png
+images: 
+  - portfolio/joto-systems/lushvines.png
 client: JoTo Systems
 location: "Coonawarra Valley, Australia"
 category: ["Smart Farming", "Smart Agriculture", "IoT"]
