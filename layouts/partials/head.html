@@ -52,7 +52,7 @@
       }
       </script>
       <!-- Open Graph Data -->
-      <meta property="og:title" content="{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Title)}}{{$title}} - {{ end }}{{ end }}{{ .Site.Title }}" />
+  <meta property="og:title" content="{{ with .Title }}{{ $title := printf "%s" $.Title }}{{ if not (eq $title $.Site.Params.title)}}{{$title}} - {{ end }}{{ end }}{{ .Site.Params.siteName }}" />
   <meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
