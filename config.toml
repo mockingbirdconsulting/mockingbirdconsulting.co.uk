@@ -36,6 +36,7 @@ description = "Connecting you with your environment"
 author = "Mockingbird Consulting Ltd"
 # Google Analitycs
 googleAnalitycsID = "UA-98611453-1"
+fb_app_id = "1301301486613337"
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
 siteName = "Mockingbird Consulting"
