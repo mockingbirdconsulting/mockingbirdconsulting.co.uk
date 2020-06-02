@@ -21,7 +21,13 @@
                 {{ with .Params.image }}
                 <div class="work-single-image">
                     <!-- Work Single Image -->
-                    <img class="img-fluid w-100" src="{{ . | absURL }}" alt="{{ $.Params.description }}" />
+                    <img class="img-fluid w-100" 
+                          src="{{ . | absURL }}"
+                          srcset="{{ . | absURL}} w680,
+                                  {{ . | absURL}} w340,
+                                  {{ . | absURL}} w170
+                                   "
+                          alt="{{ $.Params.description }}" />
                 </div>
                 {{ end }}
                 <!-- work single Content -->
