@@ -13,6 +13,8 @@ resources:
      src: am100.png
    - name: fridgeSensor
      src: fridgeSensor.png
+   - name: parkingBay
+     src:  parkingBay.png
 tags:
   - LoRaWAN 
   - Coronavirus
@@ -50,6 +52,8 @@ Many local businesses have turned to a "Click and Collect" style of working duri
 In these situations, customers place their orders via the phone, email, or a website and then drive to the store's parking bay and dial a number to let the staff know that they have arrived, but what if we could automate this step further and remove the potential issues of your phone-lines being engaged when the customer arrives to collect?
 
 As part of our efforts to help our customers enforce the social distancing rules set out by the various governments across the UK to ensure we protect the NHS and other Public Health organisations, we've come up with a plan to help make your click and collect setup even more efficient.
+
+{{< bundle-image alt="An image of our parking bay sensors" name="parkingBay" caption="Simply glue to the surface of your parking bay and get instant alerts when the bay is occupied" >}}
 
 The plan revolves around our parking bay sensors - simply place the sensors into the floor of the bays you wish to monitor, and then get an alert sent to your staff via email, SMS, or one of our visual indicators so they know that the customer is ready to collect.
 
