@@ -27,7 +27,7 @@ As the UK starts to look at how we lift social distancing restrictions in the wa
 
 [Recent studies](https://www.theguardian.com/environment/2020/apr/30/clean-air-in-europe-during-lockdown-leads-to-11000-fewer-deaths) have shown the apparent correlation between an improvement in air quality and the Coronavirus Lockdown, but did you know that other studies suggest Coronavirus is *more likely* to spread in areas where air quality is poor?
 
-The All Party Parlimentary Group for Air Pollution recently launched their [Air Quality Strategy to Reduce Coronavirus infection](https://appgairpollution.org/2020/05/29/air-quality-strategy-to-reduce-coronavirus-infection/) and it makes for sobering reading.  The studies and surveys cited all point to air pollution playing its part in both the spread *and* the infection efficacy of the virus through inflamation of the airways.  
+The All Party Parliamentary Group for Air Pollution recently launched their [Air Quality Strategy to Reduce Coronavirus infection](https://appgairpollution.org/2020/05/29/air-quality-strategy-to-reduce-coronavirus-infection/) and it makes for sobering reading.  The studies and surveys cited all point to air pollution playing its part in both the spread *and* the infection efficacy of the virus through inflammation of the airways.  
 
 {{< bundle-image alt="An image of our air quality monitors" name="airQuality" caption="Our customer counters help you manage the number of people on your premises" >}}
 
@@ -47,7 +47,7 @@ If you're lucky enough to have two entrances to your premises, why not setup a "
 The "entrance" sensors count the customers coming into your property, with the "exit" sensors counting the people leaving. After that, it's a simple question of subtracting the number who have left from the number who have arrived, and that tells you the number of people within your shop, office, or other building.
 
 ## Improving "Click and Collect"
-Many local businesses have turned to a "Click and Collect" style of working during the coronavirus lockdown to ensure that appropriate social distancing can be maintained.
+Many local businesses have turned to a "Click and Collect" style of working during the Coronavirus lockdown to ensure that appropriate social distancing can be maintained.
 
 In these situations, customers place their orders via the phone, email, or a website and then drive to the store's parking bay and dial a number to let the staff know that they have arrived, but what if we could automate this step further and remove the potential issues of your phone-lines being engaged when the customer arrives to collect?
 
