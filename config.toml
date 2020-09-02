@@ -14,6 +14,10 @@ theme = "timer-hugo"
 #url     = "service"
 #weight  = 3
 [[menu.main]]
+name    = "Connectivity"
+url     = "rural-broadband"
+weight  = 3
+[[menu.main]]
 name    = "Portfolio"
 url     = "portfolio"
 weight  = 4
