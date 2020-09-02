@@ -4,7 +4,7 @@ type: "rural-broadband"
 banner:
   enable: "true"
   bgImage: "images/bb-bg.jpg"
-  heading: "Fast, reliable connectivity for "
+  heading: "Fast, reliable connectivity for rural areas including"
   flipText: 
      - "Country Estates"
      - "Glamping Pods"
