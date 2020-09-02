@@ -1,0 +1,17 @@
+enable  : true
+title   : Why choose Mockingbird Consulting?
+item    :
+  - icon  : ion-ios-lightbulb-outline
+    title : Designed, not repackaged
+    description : >
+        Each of our connectivity solutions is tailored to your requirements and your site.
+
+  - icon  : ion-ios-analytics-outline
+    title : Managed by us
+    description : >
+        When our engineers leave site our support contracts take over, monitoring your network and keeping your data safe.
+
+  - icon  : ion-ios-keypad-outline
+    title : Solid Support
+    description : >
+      We're here for you when you need us - choose from a range of support packages to suite your needs and budget
