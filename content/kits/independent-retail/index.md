@@ -18,7 +18,7 @@ keyfacts:
 sensorDetails:
   - title: "How happy are your customers?"
     summary: "We've all seen the large customer feedback buttons at airports and in larger shops, but did you know that you can get smaller versions for your own counter or shop doorway?"
-    content1: With up to five customised buttons on each device, and a surface that is fully antibacterial, you can be confident that even in a post COVID-19 world your customers can leave you simple feedback on their experience.  
+    content1: With up to five customisable buttons on each device, and a surface that is fully antibacterial, you can be confident that even in a post COVID-19 world your customers can leave you simple feedback on their experience.  
     content2: Our data analysis platform can then show you the current level of customer satisfaction, trends over time, and even match patterns in customer satisfaction with other environmental sensors within your premises!
     imgName:  /images/kits/smallCustomerFeedback.jpg
   - title: "What is the average spend of my customers?"
@@ -27,6 +27,7 @@ sensorDetails:
     content2: Our data analysis platform can give you the number of customers who visited, and then you can divide your daily takings by that number to work out your average spend
     imgName:  /images/kits/customerCounter.png
   - title: "Monitor your environment"
+<<<<<<< HEAD
     summary: "What happens if I change the temperature in my shop? Is the air too humid for my produce? What's the air quality index like in the building?"
     content1: These questions and many more can be answered through installing our room monitoring sensor.
     content2: Capable of letting you know temperature, humidity, air pressure, and even air quality, our platform combines the data we collect with the other sensors in the kit to provide you with a complete analysis of how the environment is affecting the way people behave in your premises.
