@@ -96,14 +96,15 @@
                     <h5>Key Features</h5>
                     <ul>{{ range sort . }}<li><b style="color: green">☑</b> {{ . }}</li>{{ end }}</ul>
                     {{ end }}
+                    <h5>Costs</h5>
                     {{ with .Params.keyfacts.hardwareCost }}
                     <p>
-                        Kit Cost: £{{ . }}+VAT & Delivery
+                    <b>Hardware:</b> £{{ . }} + VAT & Delivery
                     </p>
                     {{ end }}
-                    {{ with .Params.keyfacts.monthlyCost }}
+                    {{ with .Params.keyfacts.monthlyPlan }}
                     <p>
-                        Monthly Data Subscription: £{{ . }}+VAT & Delivery
+                    <b><a data-toggle="tooltip" data-html="true" title="{{ .description }}" style="text-decoration: underline">Monthly Subscription:</a></b> £{{ .cost }} + VAT
                     </p>
                     {{ end }}
                 </div>

@@ -5,6 +5,18 @@ kitImages :
     description: "Monitor your customer satisfaction and footfall, along with vital environmental information such as temperature, humidity, and air quality"
     slug: "independent-retail"
   - image : images/kits/largeshop.png
-    title: "Chain Stores & Larger Shops"
-    description: "Customer Satisfaction, footfall, environmental monitoring, and cold-chain management"
+    title: "WHAT IS A BIG SHOP CALLED?!!!"
+    description: ""
     slug: "larger-shops"
+  - image : images/kits/restaurant.png
+    title: "Restaurants and Entertainment Venues"
+    description: "Customer Satisfaction, footfall, environmental monitoring, and cold-chain management to ensure you meet regulations and standards"
+    slug: "restaurants-and-entertainment"
+  - image : images/kits/office.png
+    title: "Offices"
+    description: "Staff satisfaction, meeting room occupancy, working environment, and parking space management for your office building"
+    slug: "offices"
+  - image : images/kits/factory.png
+    title: "Factories and Industry"
+    description: "Environmental monitoring, vehicle and asset tracking, and site security for your industrial sites"
+    slug: "factories-and-industry"
