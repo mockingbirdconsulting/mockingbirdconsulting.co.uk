@@ -96,11 +96,16 @@
                     <h5>Key Features</h5>
                     <ul>{{ range sort . }}<li><b style="color: green">☑</b> {{ . }}</li>{{ end }}</ul>
                     {{ end }}
+                    {{ with .Params.keyfacts.hardwareCost }}
                     <p>
-                    {{ with .Params.keyfacts.cost }}
-                        Starting Price: £{{ . }}+VAT & Delivery
-                    {{ end }}
+                        Kit Cost: £{{ . }}+VAT & Delivery
                     </p>
+                    {{ end }}
+                    {{ with .Params.keyfacts.monthlyCost }}
+                    <p>
+                        Monthly Data Subscription: £{{ . }}+VAT & Delivery
+                    </p>
+                    {{ end }}
                 </div>
                 {{ end }}
             </div>

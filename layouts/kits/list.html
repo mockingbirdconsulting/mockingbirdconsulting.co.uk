@@ -1,9 +1,13 @@
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
-
 <section id="gallery" class="gallery">
     <div class="container">
+<div class="row">
+    <div class="col-lg mb-5">
+    <h4 class="text-center">Our kits come pre-configured and ready to go - plug them in to your existing internet connection, mount the sensors on the walls, and the data will start to appear on your dashboard in minutes.</h4>
+    </div>
+</div>
         <div class="row">
             {{ range $index, $element := .Site.Data.kits.kitImages }}
             <div class="col-md-4 col-sm-6">

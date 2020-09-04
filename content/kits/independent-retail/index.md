@@ -10,7 +10,10 @@ keyfacts:
         - Know how many customers have visited you each day
         - Understand your customer satisfaction levels
         - Learn how your environment shapes customer behaviour
-    cost: 599
+    hardwareCost: 599
+    monthlyPlan:
+        cost: 50
+        description: Full access to your data, unlimited measurements from all of your sensors, and support via email or our support portal.
 
 sensorDetails:
   - title: "How happy are your customers?"
@@ -27,7 +30,7 @@ sensorDetails:
     summary: "What happens if I change the temperature in my shop? Is the air too humid for my produce? What's the air quality index like in the building?"
     content1: These questions and many more can be answered through installing our room monitoring sensor.
     content2: Capable of letting you know temperature, humidity, air pressure, and even air quality, our platform combines the data we collect with the other sensors in the kit to provide you with a complete analysis of how the environment is affecting the way people behave in your premises.
-    imgName:  /images/kits/AM100.png
+    imgName:  /images/kits/smallAirQuality.png
 summaryTitle: Know more, adapt faster, get more business
 summaryText: We all know that collecting data and turning it into information is what enables the large companies to get ahead of their competitors, however up until now this kind of technology has been too expensive.  Our kits reduce the costs to an affordable level, ensuring you get a competitive edge over your rivals regardless of their size!
 ---
