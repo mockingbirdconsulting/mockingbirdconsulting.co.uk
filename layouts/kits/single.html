@@ -19,28 +19,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                {{ with .Params.leaderText }}
+                <p>
+                {{ with .Params.leaderText1 }}
                     {{ . }}
                 {{ end }}
-            </div>
-            <div class="col-lg-4">
-                <!-- sidebar -->
-                {{ if isset .Params "keyfacts" }}
-                <div class="work-single-sidebar">
-                    <h5>Overview</h5>
-                    {{ .Params.reviewOverview }}
-                    {{ with .Params.keyfacts.positive }}
-                    <h5>Pros</h5>
-                    <ul>{{ range sort . }}<li><b style="color: green">+</b> {{ . }}</li>{{ end }}</ul>
-                    {{ end }}
-                    {{ with .Params.keyfacts.negative }}
-                    <h5>Cons</h5>
-                    <ul>{{ range sort . }}<li><b style="color: red">-</b> {{ . }}</li>{{ end }}</ul>
-                    {{ end }}
-                </div>
+                </p><p>
+                {{ with .Params.leaderText2 }}
+                    {{ . }}
                 {{ end }}
-            </div>
-        </div>
+                </p>
         {{ $odd := 0 }}
         {{ range .Params.sensorDetails }}
         {{ if eq $odd 0 }}
@@ -96,6 +83,28 @@
         {{ $odd = 0 }}
         {{ end }}
         {{ end }}
+            </div>
+            <div class="col-lg-4">
+                <!-- sidebar -->
+                {{ if isset .Params "keyfacts" }}
+                <div class="work-single-sidebar">
+                    <h5>Overview</h5>
+                    <p>
+                    {{ .Params.keyfacts.reviewOverview }}
+                    </p>
+                    {{ with .Params.keyfacts.keyfeatures }}
+                    <h5>Key Features</h5>
+                    <ul>{{ range sort . }}<li><b style="color: green">☑</b> {{ . }}</li>{{ end }}</ul>
+                    {{ end }}
+                    <p>
+                    {{ with .Params.keyfacts.cost }}
+                        Starting Price: £{{ . }}+VAT & Delivery
+                    {{ end }}
+                    </p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
         <div class="row">
             <div class="col-md">
                 <h2>{{ .Params.summaryTitle }}</h2>
