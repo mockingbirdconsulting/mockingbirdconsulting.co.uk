@@ -8,7 +8,7 @@ casestudy_type: broadband
 image: portfolio/fce-wales/newSetup.png
 images: 
   - portfolio/fce-wales/newSetup.png
-client: FCE (Wales) / Netfit Communications
+client: FCE (Wales)
 location: "Usk, Wales, UK"
 category: ["Rural Broadband"]
 startDate: September 2020
