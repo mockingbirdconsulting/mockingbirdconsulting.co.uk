@@ -1,0 +1,37 @@
+{{ if .Site.Params.cta.enable }}
+{{ if eq .Params.casestudy_type "broadband" }}
+{{ "<!-- Call To Action Section Start -->" | safeHTML }}
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Speed up your connection!</h2>
+                    <p>If you'd like to speed up your connection just like {{ .Params.client }} have done, then fill in the form and we'll be in touch to help</p>
+                    <script type="text/javascript" src="https://mautic.tooling.mockingbirdconsulting.co.uk/form/generate.js?id=4"></script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ "<!-- Call To Action Section End -->" | safeHTML }}
+{{ else }}
+{{ "<!-- Call To Action Section Start -->" | safeHTML }}
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    {{ with .Site.Params.cta.title }}<h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+                    {{ with .Site.Params.cta.content }}<p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">{{ . | safeHTML }}</p>{{ end }}
+                    <button id="bookIntro" onclick="Calendly.showPopupWidget('https://calendly.com/mockingbirdconsulting/introductions');ga('send', 'event', 'button', 'click', 'book-intro');FB.AppEvents.logEvent('intro-booking-clicked');return false;" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">{{ .Site.Params.cta.btnText }}</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ "<!-- Call To Action Section End -->" | safeHTML }}
+{{ end }}
+{{ end }}
