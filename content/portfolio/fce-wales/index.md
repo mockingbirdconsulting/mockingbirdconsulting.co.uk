@@ -5,10 +5,10 @@ date: 2018-11-13T06:00:12+01:00
 description: "When FCE (Wales) had an issue with their existing rural broadband connection, Mockingbird Consulting stepped in to help"
 featured: yes
 casestudy_type: broadband
-image: portfolio/fce-wales/newSetup.png
+image: portfolio/fce-wales/broadbandDirectional-landscape.jpg
 images: 
-  - portfolio/fce-wales/newSetup.png
-client: FCE (Wales)
+  - portfolio/fce-wales/broadbandDirectional-landscape.jpg
+client: FCE (Wales) LTD
 location: "Usk, Wales, UK"
 category: ["Rural Broadband"]
 startDate: September 2020
@@ -16,7 +16,7 @@ projectDuration: Half a Day
 liveLink: "" 
 resources: 
   - name: header
-    src: portfolio/fce-wales/newSetup.png
+    src: portfolio/fce-wales/broadbandDirectional-landscape.jpg
 tags:
   - Rural Broadband
 ---
