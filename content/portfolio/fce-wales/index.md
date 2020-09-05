@@ -24,12 +24,10 @@ FCE (Wales) are one of the leading Principal Contract firms in South Wales and t
 
 Mockingbird Consulting were approached by our CCTV and Security partners [Netfit Communications](https://www.netfit-communications.co.uk/) to assist in stabilising the existing rural broadband connection in order to ensure footage and alerts could be transmitted to the property owners, as well as providing other buildings on the property with the ability to stream digital services such as BBC iPlayer and Netflix.
 
-
-
 An initial speed test on site showed a download speed of around 11Mbps, with an upload speed of around 6Mbps.  This is sufficient to watch one programme or film on Netflix in standard definition whilst also checking email and casually browsing the internet, however it was insufficient for the customer's needs.
 
 We ordered the hardware to our office and pre-configured it, before taking it to site and handing it over to Netfit's engineers for installation on the apex of one of the barns.
 
 Once the gateway was installed, we ran 10 speed tests in a row and found an average speed of 30Mbps with a top speed of just over 40Mbps on some of the tests, sufficient to provide both the office and the other buildings with the bandwidth and speeds that they need to work effectively and relax afterwards.
 
-
+If you'd like to know more about our rural broadband solutions, then simply fill in the form below and we'll be in touch.  If you're not ready to take that step just yet, why not [read more about what we offer](/rural-broadband) in our rural broadband and connectivity offerings.
