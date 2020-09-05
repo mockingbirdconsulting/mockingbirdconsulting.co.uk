@@ -1,7 +1,7 @@
 ---
 title: "Helping rural businesses to connect more effectively"
 type: portfolio
-date: 2018-11-13T06:00:12+01:00
+date: 2020-09-04T06:00:12+01:00
 description: "When FCE (Wales) had an issue with their existing rural broadband connection, Mockingbird Consulting stepped in to help"
 featured: yes
 casestudy_type: broadband
