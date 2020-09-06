@@ -35,9 +35,9 @@
             <div class="col-md">
                 <h2>{{ .title }}</h2>
                 <p><b>{{ .summary }}</b></p>
-                <p>{{ .content1 }}</p>
+                <p>{{ .content1 | safeHTML }}</p>
                 {{ with .content2 }}
-                <p>{{ . }}</p>
+                <p>{{ . | safeHTML }}</p>
                 {{ end }}
             </div>
             <div class="col-sm">
@@ -123,6 +123,6 @@
 </section>
 {{"<!-- work details part end -->" | safeHTML }}
 
-{{ partial "cta.html" . }}
+{{ partial "kit-cta.html" . }}
 
 {{ end }}

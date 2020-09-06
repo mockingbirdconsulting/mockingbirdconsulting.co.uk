@@ -10,7 +10,9 @@ keyfacts:
         - Know how many customers have visited you each day
         - Understand your customer satisfaction levels
         - Learn how your environment shapes customer behaviour
-    hardwareCost: 599
+    hardwareCost: 
+        cost: 599
+        perSite: false
     monthlyPlan:
         cost: 50
         description: Full access to your data, unlimited measurements from all of your sensors, and support via email or our support portal.
@@ -33,5 +35,10 @@ sensorDetails:
     imgName:  /images/kits/smallAirQuality.png
 summaryTitle: Know more, adapt faster, get more business
 summaryText: We all know that collecting data and turning it into information is what enables the large companies to get ahead of their competitors, however up until now this kind of technology has been too expensive.  Our kits reduce the costs to an affordable level, ensuring you get a competitive edge over your rivals regardless of their size!
+cta:
+    enable: true
+    title: Ready to order?
+    content: Fill in the form below and our team will be in touch with details of delivery costs and how quickly we can get you up and running!
+    mauticFormId: 5
 ---
 
