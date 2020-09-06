@@ -99,12 +99,14 @@
                     <h5>Costs</h5>
                     {{ with .Params.keyfacts.hardwareCost }}
                     <p>
-                    <b>Hardware:</b> £{{ . }} + VAT & Delivery
+                    <b>Hardware:</b> £{{ .cost }} + VAT & Delivery {{ if eq .perSite true }} per site {{ end }}
                     </p>
                     {{ end }}
                     {{ with .Params.keyfacts.monthlyPlan }}
                     <p>
-                    <b><a data-toggle="tooltip" data-html="true" title="{{ .description }}" style="text-decoration: underline">Monthly Subscription:</a></b> £{{ .cost }} + VAT
+                    <b><a data-toggle="tooltip" data-html="true" title="{{ .description }}" style="text-decoration: underline">
+                            Monthly Subscription</a></b>{{ if gt .siteLimit 1}} (for each group of {{ .siteLimit }} sites){{end}}:
+                        £{{ .cost }} + VAT
                     </p>
                     {{ end }}
                 </div>
