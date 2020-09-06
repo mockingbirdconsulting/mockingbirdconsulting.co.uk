@@ -90,7 +90,7 @@
                 <div class="work-single-sidebar">
                     <h5>Overview</h5>
                     <p>
-                    {{ .Params.keyfacts.reviewOverview }}
+                    {{ .Params.keyfacts.reviewOverview | safeHTML }}
                     </p>
                     {{ with .Params.keyfacts.keyfeatures }}
                     <h5>Key Features</h5>
