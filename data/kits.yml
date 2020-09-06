@@ -1,6 +1,6 @@
 enable  : true
 kitImages :
-  - image : images/kits/smallshop.png
+  - image : images/kits/independentretailer.png
     title: "Independent Retailers"
     description: "Monitor your customer satisfaction and footfall, along with vital environmental information such as temperature, humidity, and air quality"
     slug: "independent-retail"
