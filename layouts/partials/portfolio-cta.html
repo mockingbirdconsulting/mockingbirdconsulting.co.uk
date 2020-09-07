@@ -16,6 +16,23 @@
     </div>
 </section>
 {{ "<!-- Call To Action Section End -->" | safeHTML }}
+{{ else if eq .Params.casestudy_type "agritech" }}
+{{ "<!-- Call To Action Section Start -->" | safeHTML }}
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Learn more about your environment</h2>
+                    <p>If you'd like to know more about your environment, just like {{ .Params.client }} have done, then fill in the form and we'll be in touch to help</p>
+                    <script type="text/javascript" src="https://mautic.tooling.mockingbirdconsulting.co.uk/form/generate.js?id=7"></script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ "<!-- Call To Action Section End -->" | safeHTML }}
 {{ else }}
 {{ "<!-- Call To Action Section Start -->" | safeHTML }}
 <section id="call-to-action">
