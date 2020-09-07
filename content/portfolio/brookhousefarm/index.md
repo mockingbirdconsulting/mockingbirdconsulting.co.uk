@@ -18,6 +18,8 @@ liveLink: ""
 resources: 
   - name: agrisensor
     src: agrisensor.jpg
+  - name: gpstracker
+    src: RAKGPSSolar.png
   - name: header
     src: hops.png
   - name: weatherstation
@@ -47,11 +49,13 @@ After determining the metrics that were required, we again went out to our suppl
 
 {{< bundle-image name="weatherstation" caption="The Barani weather station and rain gauge">}}
 
-Coupling the weather station with a wired rain gauge, we were able to provide Will and Davide with farm more granualar and localised weather data than had previously been available to them, allowing them to see how fast the various areas of their hop poles soaked up moisture depending on the amount of rainfall.
+Coupling the weather station with a wired rain gauge, we were able to provide Will and Davide with farm more granular and localised weather data than had previously been available to them, allowing them to see how fast the various areas of their hop poles soaked up moisture depending on the amount of rainfall.
 
 The final part of the challenge was ensuring a safe harvest and keeping track of vehicles as they made their way around the estate.
 
-Working with RAK Wireless, we chose the RAK7258 solar-powered GPS tracker as the best option for the job, and configured them to talk back to our fully-managed IoT platform in the same way as the other sensors.
+Working with RAK Wireless, we chose the [RAK Wireless 7205](https://store.rakwireless.com/products/rak7205-lpwan-tracker-node) solar-powered GPS tracker as the best option for the job, and configured them to talk back to our fully-managed IoT platform in the same way as the other sensors.
+
+{{< bundle-image name="gpstracker" caption="The RAK 7205 GPS Tracker">}}
 
 Finally, we turned up on site to undertake the installation of the various equipment.  In hindsight, picking the first day of the harvest to install the IoT radio gateway on the top of the hop barn was probably not the wisest of decisions, however the installation team from [Netfit Communications](https://www.netfit-communications.co.uk/) did us proud as always and within a couple of hours we had confirmed that all of the sensors were feeding back to the platform.
 
