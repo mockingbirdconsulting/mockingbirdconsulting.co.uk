@@ -49,7 +49,7 @@ After determining the metrics that were required, we again went out to our suppl
 
 {{< bundle-image name="weatherstation" caption="The Barani weather station and rain gauge">}}
 
-Coupling the weather station with a wired rain gauge, we were able to provide Will and Davide with farm more granular and localised weather data than had previously been available to them, allowing them to see how fast the various areas of their hop poles soaked up moisture depending on the amount of rainfall.
+Coupling the weather station with a wired rain gauge, we were able to provide Will and Davide with far more granular and localised weather data than had previously been available to them, allowing them to see how fast the various areas of their hop poles soaked up moisture depending on the amount of rainfall.
 
 The final part of the challenge was ensuring a safe harvest and keeping track of vehicles as they made their way around the estate.
 
