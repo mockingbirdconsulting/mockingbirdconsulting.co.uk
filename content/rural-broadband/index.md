@@ -1,6 +1,8 @@
 ---
 title: "Rural Broadband"
 type: "rural-broadband"
+image: "images/broadbandDirectional-landscape.jpg"
+description: Rural broadband and connectivity solutions from your trusted environmental monitoring partner
 banner:
   enable: "true"
   bgImage: "images/bb-bg.jpg"
