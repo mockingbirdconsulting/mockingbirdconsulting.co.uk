@@ -27,13 +27,13 @@ resources:
   - name: gateway
     src: gateway.jpg
 tags:
-  - Smart Vineyards
-  - Vineyard Management
-  - Vineyard IoT
+  - Smart Agriculture
+  - Agritech
+  - Beer
+  - Hops
   - Rural IoT
   - IoT Managed Infrastructure
   - Managed IoT
-  - Smart Wine
 ---
 When Brook House Farm in Bromyard were looking for a way to monitor their hops more effectively, they turned to Mockingbird Consulting for help.
 
