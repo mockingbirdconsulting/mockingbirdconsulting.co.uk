@@ -1,0 +1,17 @@
+enable  : true
+title   : Why choose Mockingbird Consulting?
+item    :
+  - icon  : ion-ios-lightbulb-outline
+    title : Designed, not repackaged
+    description : >
+        Each of our agricultural management solutions is tailored to your requirements and your environment.
+
+  - icon  : ion-ios-analytics-outline
+    title : Managed by us
+    description : >
+        When our engineers leave site our support contracts take over, leaving you to focus on farming whilst we look after the technology.
+
+  - icon  : ion-ios-keypad-outline
+    title : Solid Support
+    description : >
+      We're here for you when you need us - support contracts that ensure your farm stays online and informed.

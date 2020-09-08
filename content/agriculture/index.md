@@ -11,10 +11,19 @@ banner:
 cta:
   enable: true
   title: "WANT TO KNOW MORE?"
-  content: "Get a free, no-commitment quotation and see how much better your connection to the world could be"
+  content: "Get a free, no-commitment consultation and see how we can help solve the challenges you face"
 about:
   enable: true
   title: ""
-  content: "If you're frustrated by your broadband speeds, or tired of having to work in a cramped corner of your building just to get a decent WiFi signal then our fully managed broadband and network solutions are what you've been looking for.<br /><br />We can ensure that you have a fast, reliable connection to the internet, and whole-site WiFi including guest networks for your visitors - perfect for everyone from golf clubs and glamping to AirBNB's.</br /><br />Best of all, we'll manage the entire solution for you, including security updates, so you can focus on running your business instead of trying to fix your internet connection."
-  image: "images/broadbandDirectional-landscape.jpg"
+  content: > 
+    We know that each and every farm is different, from the way it is managed through to the livestock and landscape you're responsible for.<br /><br />
+
+    As a result, our Agricultural Management Solutions are tailored to your needs, to ensure that we solve the challenges that you face in your environment.<br /><br />
+
+    Whether you're growing crops, raising cattle, or harvesting vines we have a solution for you, from monitoring soil conditions, to tracking livestock via GPS, or even monitoring the light and moisture that are reaching your leaves.<br /><br />
+
+    We can even alert you if a rambler leaves a gate open on your property!<br /><br />
+
+    Why not <a href="#call-to-action">book a short call</a> with one of our team to see how we can help you?
+  image: "images/gateSensor.jpg"
 ---
