@@ -32,7 +32,7 @@ sensorDetails:
   - title: "How close am I to reaching store capacity?"
     summary: "In a post COVID-19 world, it is more important than ever to know how many people are entering and leaving your store"
     content1: Our customer counters sit either side of your shop door way and count the number of people who enter or leave your premises.
-    content2: We can process the data from these devices in real-time and alert either your or your customers if the number of people inside the shop gets close to or breaches a particular level, allowing you to ensure that safe social distancing is maintained.
+    content2: We can process the data from these devices in real-time and alert either you or your customers if the number of people inside the shop gets close to or breaches a particular level, allowing you to ensure that safe social distancing is maintained.
     imgName:  /images/kits/customerCounter.png
   - title: "Automate the mundane"
     summary: "How much time do your staff spend checking any cold chain equipment on site? Depending on the number of fridges and freezers, it could be hours of time when it is all added up."
