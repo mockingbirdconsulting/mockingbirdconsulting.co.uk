@@ -11,7 +11,7 @@ keyfacts:
         - Understand your customer satisfaction levels with multiple feedback points around the store
         - Encourage safe social distancing by limiting the number of customers in the shop
     hardwareCost: 
-        cost: 2,500
+        cost: 2,399
         perSite: true
     monthlyPlan:
         cost: 250

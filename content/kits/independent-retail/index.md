@@ -11,7 +11,7 @@ keyfacts:
         - Understand your customer satisfaction levels
         - Learn how your environment shapes customer behaviour
     hardwareCost: 
-        cost: 599
+        cost: 999
         perSite: false
     monthlyPlan:
         cost: 50
