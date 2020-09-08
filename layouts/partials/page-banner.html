@@ -10,6 +10,7 @@
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
                             {{ with .Params.banner.heading }}<span>{{ . }}</span>{{ end }}
                             <br>
+                            {{ if .Params.banner.flipText }}
                             <span class="cd-words-wrapper">
                                 {{ range $index, $element := .Params.banner.flipText }}
                                     {{ if eq $index 0 }}
@@ -19,6 +20,7 @@
                                     {{end}}
                                 {{ end }}
                             </span>
+                            {{ end }}
                         </h1>
                     </section>
                     {{ with .Params.banner.description }}<h2 class="wow fadeInUp animated" data-wow-delay=".6s">{{ . }}</h2>{{ end }}
