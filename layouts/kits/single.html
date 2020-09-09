@@ -1,0 +1,129 @@
+{{ define "main" }}
+
+{{ "<!-- Page Header -->" | safeHTML }}
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <p>{{ .Params.subheading }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+                {{ with .Params.leaderText1 }}
+                    {{ . }}
+                {{ end }}
+                </p><p>
+                {{ with .Params.leaderText2 }}
+                    {{ . }}
+                {{ end }}
+                </p>
+        {{ $odd := 0 }}
+        {{ range .Params.sensorDetails }}
+        {{ if eq $odd 0 }}
+        <div class="row">
+            <div class="col-md">
+                <h2>{{ .title }}</h2>
+                <p><b>{{ .summary }}</b></p>
+                <p>{{ .content1 | safeHTML }}</p>
+                {{ with .content2 }}
+                <p>{{ . | safeHTML }}</p>
+                {{ end }}
+            </div>
+            <div class="col-sm">
+              <figure>
+                  <img
+                    src="{{ .imgName | absURL }}" 
+                    width="75%"
+                    alt="{{.imgDescription}}"
+                  />
+                  {{ with .imgDescription}}
+                <figcaption><p>{{ . }}</p></figcaption>
+                  {{ end }}
+              </figure>
+            </div>
+        </div>
+        {{ else }}
+        <div class="row">
+            <div class="col-sm">
+              <figure>
+                  <img
+                    src="{{ .imgName | absURL }}" 
+                    width="75%"
+                    alt="{{.imgDescription}}"
+                  />
+                  {{ with .imgDescription}}
+                <figcaption><p>{{ . }}</p></figcaption>
+                  {{ end }}
+              </figure>
+            </div>
+            <div class="col-md">
+                <h2>{{ .title }}</h2>
+                <p><b>{{ .summary }}</b></p>
+                <p>{{ .content1 }}</p>
+                {{ with .content2 }}
+                <p>{{ . }}</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ if eq $odd 0 }}
+        {{ $odd = 1 }}
+        {{ else }}
+        {{ $odd = 0 }}
+        {{ end }}
+        {{ end }}
+            </div>
+            <div class="col-lg-4">
+                <!-- sidebar -->
+                {{ if isset .Params "keyfacts" }}
+                <div class="work-single-sidebar">
+                    <h5>Overview</h5>
+                    <p>
+                    {{ .Params.keyfacts.reviewOverview | safeHTML }}
+                    </p>
+                    {{ with .Params.keyfacts.keyfeatures }}
+                    <h5>Key Features</h5>
+                    <ul>{{ range sort . }}<li><b style="color: green">☑</b> {{ . }}</li>{{ end }}</ul>
+                    {{ end }}
+                    <h5>Costs</h5>
+                    {{ with .Params.keyfacts.hardwareCost }}
+                    <p>
+                    <b>Hardware:</b> £{{ .cost }} + VAT & Delivery {{ if eq .perSite true }} per site {{ end }}
+                    </p>
+                    {{ end }}
+                    {{ with .Params.keyfacts.monthlyPlan }}
+                    <p>
+                    <b><a data-toggle="tooltip" data-html="true" title="{{ .description }}" style="text-decoration: underline">
+                            Monthly Subscription</a></b>{{ if gt .siteLimit 1}} (for each group of {{ .siteLimit }} sites){{end}}:
+                        £{{ .cost }} + VAT
+                    </p>
+                    {{ end }}
+                    <a href="#call-to-action" class="btn btn-primary">Order my kit now!</a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <h2>{{ .Params.summaryTitle }}</h2>
+                <p>{{ .Params.summaryText }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+{{ partial "kit-cta.html" . }}
+
+{{ end }}

@@ -1,0 +1,10 @@
+enable  : true
+kitImages :
+  - image : images/kits/independentretailer.png
+    title: "Independent Retailers"
+    description: "Monitor your customer satisfaction and footfall, along with vital environmental information such as temperature, humidity, and air quality"
+    slug: "independent-retail"
+  - image : images/kits/largeshop.png
+    title: "Retailers with multiple premises"
+    description: "All of the sensors from our independent retailer kit, with additional devices to monitor cold chain storage and parking/loading bays"
+    slug: "multiple-retail-premises"

@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+<section id="gallery" class="gallery">
+    <div class="container">
+<div class="row">
+    <div class="col-lg mb-5">
+    <h4 class="text-center">Our kits come pre-configured and ready to go - plug them in to your existing internet connection, mount the sensors in the appropriate locations, and the data will start to appear on your dashboard in minutes.</h4>
+    <p>All our kits come with a monthly support and data package, and you can easily add more sensors from across our entire range at any time in the future.</p>
+    </div>
+</div>
+        <div class="card-deck">
+            {{ range $index, $element := .Site.Data.kits.kitImages }}
+            <div class="card text-center">
+                <div class="card-header">
+                    <h4 class="card-title">{{ .title }}</h4>
+                </div>
+                <img src="{{ .image | absURL }}" class="card-img-top" alt="{{ .title }}">
+                <div class="card-body">
+                    <p class="card-text">{{ .description }}</p>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-primary" href="{{ path.Join "/kits/" .slug | relURL }}">Learn more</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+{{ end }}
