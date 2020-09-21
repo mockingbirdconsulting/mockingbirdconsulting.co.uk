@@ -24,4 +24,8 @@ Mockingbird Consulting are delighted to announce that we've been accepted into t
 
 Public Sector bodies can now call on Mockingbird Consulting to provide fully-managed IoT services, including everything from the sensors and gateways through to the data visualisation and analysis platforms, as well as our environmental monitoring solutions.
 
+Our wide-ranging products and services include the ability to monitor buildings, farms, vehicles, and much more, so whether you want to know more about the conditions inside your offices using one of our indoor environmental sensors, or are helping farmers better understand the land they manage, we've got a solution for you.
 
+The Managed IoT platform can be run on our own cloud infrastructure or deployed into your environment, and includes support and advice from how to select the most appropriate sensors for your organisation and managing the IoT Gateways, through to the data storage platform and dashboards.
+
+If you'd like to know more about how we can help you, fill in the form below or [contact us](/contact) via phone or email, and we'll get back to you within 24 hours.
