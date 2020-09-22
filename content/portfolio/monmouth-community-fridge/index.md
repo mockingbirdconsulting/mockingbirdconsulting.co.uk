@@ -21,9 +21,9 @@ resources:
   - name: dashboard
     src: dashboard.png
   - name: fridges
-    src: fridges.png
+    src: fridges.jpg
   - name: sensor
-    src: sensor.png
+    src: sensor.jpg
 tags:
   - Rural IoT
   - IoT Managed Infrastructure
@@ -37,10 +37,12 @@ The setup consists of three fridges and a freezer unit, and the existing setup h
 
 We'd spoken before with the group about WiFi or Bluetooth thermometers, however as the fridges were housed in the old stable block with solid brick walls about 300mm thick it was clear that an alternative radio technology would be needed.  Thankfully, we're LoRaWAN experts and the same radio technology that can send [data about crops and weather](/portfolio/brookhousefarm/) over long distances is also perfect for sending data over short distances through Grade II listed walls!
 
+{{< bundle-image name="sensor" caption="The sensor ready to be activated">}}
+
 As a starting point, we placed an ELSYS ESM5K sensor into the freezer and connected it to our platform.  Instantly, we started to collect data on the temperature, humidity, and light conditions inside the fridge using the free tier dashboards from [Datacake](https://datacake.co).
 
 {{< bundle-image name="dashboard" caption="The metrics from the sensor before the freezer was switched on">}}
 
-Once we had proved the sensor data was being recorded properly, we configured alerts within Datacake to send emails when the temperature rises above -18.5°C to ensure there is time for the community volunteers to act before breaching the Food Standards Agency guidelines on storing froze food, and a second alert when the light levels are above 0lux for more than 5 minutes.  Why do we monitor the light levels inside a freezer? So we know when the door has been left open!
+Once we had proved the sensor data was being recorded properly, we configured alerts within Datacake to send emails when the temperature rises above -18.5°C to ensure there is time for the community volunteers to act before breaching the Food Standards Agency guidelines on storing frozen food, and a second alert when the light levels are above 0lux for more than 5 minutes.  Why do we monitor the light levels inside a freezer? So we know when the door has been left open!
 
 We're delighted that we were able to donate our time and resources to the project, and we wish the team behind the [Monmouth Community Fridge](https://www.facebook.com/groups/monmouthcommunityfridge/) all the best for the future!
