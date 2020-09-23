@@ -1,13 +1,12 @@
 enable  : true
 title   : OUR OFFER
 subtitle: >
-  Here's what you can expect from our team when you engage with us or purchase one of our kits.
+  Whether you need a faster broadband connection, a redesign of your office network, or a fully managed IoT solution, our promise to you is the same
 item    :
   - icon  : ion-ios-flask-outline
     title : Bespoke Solutions
     description : >
         For when an "off the shelf" solution just won't cut it - our team will tailor our services to your specific environment
-      
 
   - icon  : ion-ios-lightbulb-outline
     title : Pre-packaged kits
@@ -18,12 +17,11 @@ item    :
     title : Analytics as standard
     description : >
         Know more. Make better decisions - our analytics platform allows you to see what your environment is doing in real-time
-      
 
   - icon  : ion-ios-keypad-outline
     title : Solid Support
     description : >
-      We're here for you when you need us - choose from a range of support packages to suite your needs and budget
+      Our support packages take over the moment our installation teams leave site, letting you focus on your business and leaving the technology to us
 
   - icon  : ion-ios-barcode-outline
     title : Simple Installation
@@ -34,4 +32,3 @@ item    :
     title : Proactive Monitoring
     description : >
         Get alerts to your phone before things go wrong, so you can correct them in a controlled manner
-      

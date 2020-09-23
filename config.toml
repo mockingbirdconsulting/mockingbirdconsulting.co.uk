@@ -55,7 +55,7 @@ title = "Connecting you with your environment"
 enable  = true
 bgImage = "images/header-bg.jpg"
 heading = "CONNECTING YOU WITH YOUR"
-description = "Monitoring solutions proven to enhance your working environment"
+description = "Complete connectivity solutions, from broadband and networks to environmental and agricultural monitoring"
 # button
 btn     = false
 btnText = "Download More"
@@ -87,8 +87,8 @@ title   = "ENVIRONMENT"
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "KNOW MORE. MAKE BETTER DECISIONS."
-content = "The more you know about the environment around you, the more effectively you can manage it.<br /><br />Whether you're looking to keep track of your livestock and heavy plant on a farm or building site, want insights into how your customers feel about your business, or just want to ensure that meeting rooms are being used as effectively as possible - Mockingbird Consulting have a solution for you."
+title   = "Efficient, stable, cost-effective solutions for your estates and premises"
+content = "Frustrated by your broadband speeds? Suffering from patchy WiFi in your office or on your farm? Need to know more about soil conditions, vehicle & asset locations, customer behaviour or air quality?<br /><br />Mockingbird Consulting can help.<br /><br />We have solutions for all the above and much more, allowing us to provide you with one phone number to call and a single support contract covering everything from broadband connectivity into your site through to knowing the temperature of your fridges and freezers."
 image   = "images/about.png"
 
 # Call to Action
