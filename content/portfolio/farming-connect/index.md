@@ -1,7 +1,7 @@
 ---
 title: "Supporting Welsh Farmers with technology"
 type: portfolio
-date: 2020-09-10T06:00:12+01:00
+date: 2020-09-30T06:00:12+01:00
 description: ""
 caption: ""
 featured: yes
