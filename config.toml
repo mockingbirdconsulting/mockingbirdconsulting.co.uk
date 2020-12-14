@@ -9,30 +9,30 @@ theme = "timer-hugo"
 #name    = "About"
 #url     = "about"
 #weight  = 2
-[[menu.main]]
-name    = "Kits"
-url     = "kits"
-weight  = 2
-[[menu.main]]
-name    = "Rural Broadband"
-url     = "rural-broadband"
-weight  = 3
-[[menu.main]]
-name    = "Kits"
-url     = "kits"
-weight  = 2
-[[menu.main]]
-name    = "Portfolio"
-url     = "portfolio"
-weight  = 4
-[[menu.main]]
-name    = "Blog"
-url     = "blog"
-weight  = 5
-[[menu.main]]
-name    = "Contact"
-url     = "contact"
-weight  = 6
+#[[menu.main]]
+#name    = "Kits"
+#url     = "kits"
+#weight  = 2
+#[[menu.main]]
+#name    = "Rural Broadband"
+#url     = "rural-broadband"
+#weight  = 3
+#[[menu.main]]
+#name    = "Kits"
+#url     = "kits"
+#weight  = 2
+#[[menu.main]]
+#name    = "Portfolio"
+#url     = "portfolio"
+#weight  = 4
+#[[menu.main]]
+#name    = "Blog"
+#url     = "blog"
+#weight  = 5
+#[[menu.main]]
+#name    = "Contact"
+#url     = "contact"
+#weight  = 6
 
 # Site Params
 [params]
@@ -40,7 +40,7 @@ home = "Home"
 logo = "images/logo.png"
 dateFormat = "6 January 2006"
 # Meta data
-description = "Connecting you with your environment"
+description = "Mockingbird Consulting has merged with riot7"
 author = "Mockingbird Consulting Ltd"
 # Google Analitycs
 googleAnalitycsID = "UA-98611453-1"
@@ -48,18 +48,18 @@ fb_app_id = "1301301486613337"
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
 siteName = "Mockingbird Consulting"
-title = "Connecting you with your environment"
+title = "Mockingbird Consulting has merged with riot7"
 
 # Banner Section
 [params.banner]
 enable  = true
 bgImage = "images/header-bg.jpg"
-heading = "CONNECTING YOU WITH YOUR"
-description = "Complete connectivity solutions, from broadband and networks to environmental and agricultural monitoring"
+heading = "Mockingbird Consulting has merged with riot7"
+description = "We're delighted to announce that both our Farm and Estates Management solutions, and bespoke, fully managed IoT platforms division are now part of riot7."
 # button
-btn     = false
-btnText = "Download More"
-btnURL  = "https://themefisher.com/"
+btn     = true
+btnText = "Continue your journey with riot7"
+btnURL  = "https://riot7.co.uk/"
 
 # Custom 404 settings
 [params.banner404]
@@ -73,47 +73,47 @@ btnText = "Download More"
 btnURL  = "https://themefisher.com/"
 
 # flip text
-[[params.banner.flipText]]
-title   = "FARM"
-[[params.banner.flipText]]
-title   = "SHOP"
-[[params.banner.flipText]]
-title   = "OFFICE"
-[[params.banner.flipText]]
-title   = "FACTORY"
-[[params.banner.flipText]]
-title   = "ENVIRONMENT"
+#[[params.banner.flipText]]
+#title   = "FARM"
+#[[params.banner.flipText]]
+#title   = "SHOP"
+#[[params.banner.flipText]]
+#title   = "OFFICE"
+#[[params.banner.flipText]]
+#title   = "FACTORY"
+#[[params.banner.flipText]]
+#title   = "ENVIRONMENT"
 
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "Efficient, stable, cost-effective solutions for your estates and premises"
-content = "Frustrated by your broadband speeds? Suffering from patchy WiFi in your office or on your farm? Need to know more about soil conditions, vehicle & asset locations, customer behaviour or air quality?<br /><br />Mockingbird Consulting can help.<br /><br />We have solutions for all the above and much more, allowing us to provide you with one phone number to call and a single support contract covering everything from broadband connectivity into your site through to knowing the temperature of your fridges and freezers."
+title   = "An exciting future is ahead, built on our solid foundations."
+content = "Today, Mockingbird Consulting will close its doors for the last time. It's been an amazing three and a half years and we've met incredible people along the way, many of whom have turned from being customers and suppliers into firm friends.</p><p>Our IoT solutions will merge into <a href='https://www.riot7.co.uk/' target='_blank'>riot7</a>, and our WiFi and rural broadband offerings will no longer be available. If you are a customer with an existing support contract, we will have already contacted you about this.</p><p>The merger of our IoT solutions with riot7 heralds the start of a new adventure - the promise of environmental monitoring solutions that utilise the most appropriate technologies for your organisation to solve the challenges you face, fully managed by our team, allowing you to focus on using the data to improve your operations.</p><p>We can't wait to bring you all with us on this journey, and we'll be posting details of how you can follow riot7 on social media channels in the very near future.</p><p>Thank you to each and every one of you who have spoken with us, helped us shape our offerings, or simply liked and shared our posts - we really have appreciated every single moment.</p><p>The Mockingbird Consulting Team</p>"
 image   = "images/about.png"
 
 # Call to Action
-[params.cta]
-enable  = true
-title   = "WANT TO KNOW MORE?"
-content = "Get a free, no-commitment 30-minute consultation for your farm, office, factory, or shop"
-btnText = "Let's go!"
-btnURL  = "/contact"
+#[params.cta]
+#enable  = true
+#title   = "WANT TO KNOW MORE?"
+#content = "Get a free, no-commitment 30-minute consultation for your farm, office, factory, or shop"
+#btnText = "Let's go!"
+#btnURL  = "/contact"
 
 # Portfolio Section On Homepage
-[params.portfolio]
-enable  = true
-title   = "Latest Projects and Blog Posts"
-subtitle= "From Farming to Factories and Offices to Shops, find out what we've been up to recently and get inspiration from our blog posts and analysis"
+#[params.portfolio]
+#enable  = true
+#title   = "Latest Projects and Blog Posts"
+#subtitle= "From Farming to Factories and Offices to Shops, find out what we've been up to recently and get inspiration from our blog posts and analysis"
 
 # social icon
-[[params.socialIcon]]
-icon = "ion-social-facebook"
-url = "https://www.facebook.com/MockingbirdConsultingLtd/"
-
-[[params.socialIcon]]
-icon = "ion-social-instagram"
-url = "https://www.instagram.com/mockingbirdconsulting/"
-
-[[params.socialIcon]]
-icon = "ion-social-linkedin"
-url = "https://www.linkedin.com/company/mockingbird-consulting"
+#[[params.socialIcon]]
+#icon = "ion-social-facebook"
+#url = "https://www.facebook.com/MockingbirdConsultingLtd/"
+#
+#[[params.socialIcon]]
+#icon = "ion-social-instagram"
+#url = "https://www.instagram.com/mockingbirdconsulting/"
+#
+#[[params.socialIcon]]
+#icon = "ion-social-linkedin"
+#url = "https://www.linkedin.com/company/mockingbird-consulting"
